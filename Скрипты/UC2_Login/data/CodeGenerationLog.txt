@@ -1,0 +1,2018 @@
+****** Start Log Message ******
+Web Recorder version : 2020.0.0.793 
+Recording Mode: HTML-based script
+Recording headers not in list:
+	accept
+	accept-charset
+	accept-encoding
+	accept-language
+	accept-ranges
+	age
+	allow
+	cache-control
+	content-base
+	content-disposition
+	content-encoding
+	content-language
+	content-location
+	content-md5
+	content-range
+	content-type
+	date
+	etag
+	expires
+	from
+	if-modified-since
+	if-match
+	if-none-match
+	if-range
+	if-unmodified-since
+	location
+	last-modified
+	max-forwards
+	pragma
+	public
+	range
+	retry-after
+	server
+	transfer-encoding
+	upgrade
+	user-agent
+	vary
+	via
+	warning
+	method
+	path
+	scheme
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 2020.0.0.793
+
+****** Analyze segments filter initialization ******
+[Traffic Filtering] Filtering clientservices.googleapis.com
+****** Request Header For Transaction With Id 34 ******
+GET /chrome-variations/seed?osname=win&channel=stable&milestone=113 HTTP/1.1
+Host: clientservices.googleapis.com
+Connection: keep-alive
+If-None-Match: SMChYyMDIzMDUyMi0xODAxMzEuMTU4MDAwEggIABADGHEgAA==#nwo3RQWRzio=
+A-IM: x-bm,gzip
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
+
+$$$$$$ Request Header For Transaction With Id 34 Ended $$$$$$
+
+****** Response Header For Transaction With Id 34 ******
+HTTP/1.1 304 Not Modified
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+Date: Tue, 23 May 2023 09:11:35 GMT
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 34 Ended $$$$$$
+
+****** Request Header For Transaction With Id 36 ******
+GET / HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D
+If-None-Match: W/"10827-1641810512000"
+If-Modified-Since: Mon, 10 Jan 2022 10:28:32 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 36 Ended $$$$$$
+
+****** Response Header For Transaction With Id 36 ******
+HTTP/1.1 304 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:35 GMT
+Connection: keep-alive
+ETag: W/"10827-1641810512000"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 36 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to 'AUTO'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 36 ****** (Location Flag : tFlagInsertEnd, Location ID : 36)
+	web_url("www.advantageonlineshopping.com",
+		"URL=https://www.advantageonlineshopping.com/",
+		"Resource=0",
+		"Referer=",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 36 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 36)
+	web_add_cookie("_ga=GA1.2.518137378.1684742610; DOMAIN=www.advantageonlineshopping.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 36)
+	web_add_cookie("_gid=GA1.2.1778135003.1684742610; DOMAIN=www.advantageonlineshopping.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 36)
+	web_add_cookie("userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; DOMAIN=www.advantageonlineshopping.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 38 ******
+GET /vendor/requirejs/require.js HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D
+If-None-Match: W/"85921-1556724020000"
+If-Modified-Since: Wed, 01 May 2019 15:20:20 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 38 Ended $$$$$$
+
+****** Response Header For Transaction With Id 38 ******
+HTTP/1.1 304 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:35 GMT
+Connection: keep-alive
+ETag: W/"85921-1556724020000"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 38 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 36 ******
+	web_url("www.advantageonlineshopping.com",
+		"URL=https://www.advantageonlineshopping.com/",
+		"Resource=0",
+		"Referer=",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=/vendor/requirejs/require.js", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 36 Ended $$$$$$
+
+****** Request Header For Transaction With Id 44 ******
+GET /main.min.js HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D
+If-None-Match: W/"1137470-1641810512000"
+If-Modified-Since: Mon, 10 Jan 2022 10:28:32 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 44 Ended $$$$$$
+
+****** Response Header For Transaction With Id 44 ******
+HTTP/1.1 304 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:35 GMT
+Connection: keep-alive
+ETag: W/"1137470-1641810512000"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 44 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 36 ******
+	web_url("www.advantageonlineshopping.com",
+		"URL=https://www.advantageonlineshopping.com/",
+		"Resource=0",
+		"Referer=",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=/vendor/requirejs/require.js", ENDITEM,
+		"Url=/main.min.js", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 36 Ended $$$$$$
+
+[Traffic Filtering] Filtering clients4.google.com
+****** Request Header For Transaction With Id 47 ******
+POST /chrome-sync/command/?client=Google+Chrome&client_id=pVDUj4iv1h%2BzjWBr32trMQ%3D%3D HTTP/1.1
+Host: clients4.google.com
+Connection: keep-alive
+Content-Length: 1111
+Pragma: no-cache
+Cache-Control: no-cache
+Authorization: Bearer ya29.a0AWY7CkmYA6-KVlBUWN6GkrUomZLumM4MvzSSZgMO-Oxh-67Bkewra5Gua0IMqF57-YWPvWKiBMz7eA0R60vmWyOMrWy-B6iReWouySq7Tydlweeb7cuUQRrimt9cgLAPxU8086WEhthB5ooXJp7LWmmMy0pQLxkBrDWBIRXSNNyLVtYNmTqi4Wf7LH3zDTw00RjlhoM2_GBRG_1QcEc2OaeuFJScO_nCMkREdvrWR48IXVLNjSgxePNxzHLfi5uOM52TsK7u2QaCgYKAcASARISFQG1tDrp2fgqQRr-areidk51G9W3PA0273
+Content-Encoding: gzip
+User-Agent: Chrome WIN 113.0.5672.127 (c541687b21a73452ab403e2dced7033ddc97ee9d-refs/branch-heads/5672@{#1202}) channel(stable)
+Content-Type: application/octet-stream
+X-Client-Data: CKu1yQEIiLbJAQiitskBCKmdygEIze7KAQiVocsBCIWgzQEIxKPNAQiSps0BCMeqzQEIl6vNAQjYq80BCParzQEI6azNAQiEsc0BCL6xzQEItbLNAQjws80BGNidzQE=
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+$$$$$$ Request Header For Transaction With Id 47 Ended $$$$$$
+
+****** Request Body For Transaction With Id 47 ******
+
+\x19kazarinvitalik6@gmail.com\x10c\x18\x02*\xB9 \x12\x04\x08\x00\x10\x01\x18\x012\xF2\x01\x08\x88\x81\x02\x12\xDB\x01\x12R\x08\x02\x12N
+\x06
+\x02bm\x10\x01\x103\x1A\x12	\x00\x1E\xDE$F\xFC\x05\x00!\x00\x1E\xDE$F\xFC\x05\x00"\x14	%\xF1\xB6*F\xFC\x05\x00\x10\x01\x19\xA6%F\xA2e\x02Q\x812\x18
+\x16\x08\x02\x11 \xCF\xF14F\xFC\x05\x00\x18\x00!\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x92\x01}
+4
+\x0Echrome_sync_bm\x12\x0551!bm\x1A\x12	P\xB1\xF24F\xFC\x05\x00\x11P\xB1\xF24F\xFC\x05\x00){\xCC\xF24F\xFC\x05\x00
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\xB3\x98/F\xFC\x05\x00\x11\x00\xB3\x98/F\xFC\x05\x00)\xF7\xA6\xF24F\xFC\x05\x000\x80\xE6\xE2\xFC\xE2\x88\xFF\x02\xBA\x01\x02\x08\x01*\x0E\x10\x00\x18\x01 \x00(\x000\x008\x00@\x002\xAB\x01\x08\xC6\xA6\x02\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!pf\x1A\x12	\x00\xCBH\xA0X\xFC\x05\x00\x11\x00\xCBH\xA0X\xFC\x05\x00)\xFA38\xA6X\xFC\x05\x000\x80\x96\xA3\x82\x8A\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\xCBH\xA0X\xFC\x05\x00\x11\x00\xCBH\xA0X\xFC\x05\x00)\xCD38\xA6X\xFC\x05\x000\x80\x96\xA3\x82\x8A\x8B\xFF\x02*\x0E\x10\x00\x18\x01 \x00(\x000\x008\x00@\x002\xDC\x01\x08\xB1\xE6\x02\x12\xC5\x01\x12<\x08\x02\x128
+\x06
+\x02pw\x10\x00\x103\x1A\x12	\x006\x8E\x95X\xFC\x05\x00!\x006\x8E\x95X\xFC\x05\x002\x18
+\x16\x08\x02\x11\xE9`7\xA6X\xFC\x05\x00\x18\x00!\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x92\x01}
+4
+\x0Echrome_sync_pw\x12\x0551!pw\x1A\x12	578\xA6X\xFC\x05\x00\x11578\xA6X\xFC\x05\x00)\xA1S8\xA6X\xFC\x05\x00
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\xCBH\xA0X\xFC\x05\x00\x11\x00\xCBH\xA0X\xFC\x05\x00)\xCD38\xA6X\xFC\x05\x000\x80\x96\xA3\x82\x8A\x8B\xFF\x02\xBA\x01\x02\x08\x01*\x0E\x10\x00\x18\x01 \x00(\x000\x008\x00@\x002\xAB\x01\x08\xCF\xF3\x03\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!ap\x1A\x12	\x00\xCBH\xA0X\xFC\x05\x00\x11\x00\xCBH\xA0X\xFC\x05\x00)\xDB38\xA6X\xFC\x05\x000\x80\x96\xA3\x82\x8A\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\xCBH\xA0X\xFC\x05\x00\x11\x00\xCBH\xA0X\xFC\x05\x00)\xCD38\xA6X\xFC\x05\x000\x80\x96\xA3\x82\x8A\x8B\xFF\x02*\x0E\x10\x00\x18\x01 \x00(\x000\x008\x00@\x002\xAB\x01\x08\xF1\xF7\x01\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!af\x1A\x12	\x00\xCBH\xA0X\xFC\x05\x00\x11\x00\xCBH\xA0X\xFC\x05\x00)\xD938\xA6X\xFC\x05\x000\x80\x96\xA3\x82\x8A\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\xCBH\xA0X\xFC\x05\x00\x11\x00\xCBH\xA0X\xFC\x05\x00)\xCD38\xA6X\xFC\x05\x000\x80\x96\xA3\x82\x8A\x8B\xFF\x02*\x0E\x10\x00\x18\x01 \x00
+$$$$$$ Request Body For Transaction With Id 47 Ended $$$$$$
+
+****** Response Header For Transaction With Id 47 ******
+HTTP/1.1 200 OK
+Content-Type: application/vnd.google.octet-stream-compressible
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Tue, 23 May 2023 09:11:35 GMT
+Content-Disposition: attachment; filename="response"
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Content-Encoding: gzip
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 47 Ended $$$$$$
+
+****** Response Body For Transaction With Id 47 ******
+\x12\xA2;
+\xEA\x01
+fZ:ADqtAZx8d1IxPTwOuM6XfuiDjgyE/dArz5XObrA5JAXht+TWQi/IArhZYiw4oNhw8Od6KZqdBuIr2bAu0DKWXvEmjhpJY208FQ== \xAE\xF6\x8A\xF7\x8B\x8B\xFF\x02(\xDC\xE4\xFB\xBE\x8410\xF0\xD5\xFB\xBE\x841:\x08dBj+Oq5w\x90\x01\x00\xAA\x01<\xDA\xAEI8\x1A6
++https://www.youtube.com/watch?v=G-75gAOw-XI\x10\x8B\xF8\x96\xF6\x8B\x8B\xFF\x02\xBA\x01\x1Cr158Q1lijB7PUSUrJ7n6AdeEmEc=
+\xEA\x01
+fZ:ADqtAZx8d1IxPTwOuM6XfuiDjgyEPgikwV6QkNllD/Jegu9NTxLhlgLhLbapUUoh9PP3okSMNWU1fYTOU/jtLLPeaoosnDbHtA== \xAE\xF6\x8A\xF7\x8B\x8B\xFF\x02(\xDC\xE4\xFB\xBE\x8410\xF0\xD5\xFB\xBE\x841:\x08:<J@GO]d\x90\x01\x00\xAA\x01<\xDA\xAEI8\x1A6
++https://www.youtube.com/watch?v=G-75gAOw-XI\x10\xD4\xF5\x96\xF6\x8B\x8B\xFF\x02\xBA\x01\x1CFBN08sG1nW1HUPcTx1Ju2tROU/M=
+\xEA\x01
+fZ:ADqtAZx8d1IxPTwOuM6XfuiDjgyEtMDVow7m/Az4XntLvExllsC9PDa/67lwEeQkV9HXEciiMy1gLrFgEtXUrquS+5Gs3XXKRA== \x8A\xCB\xEB\xB4\x8B\x8B\xFF\x02(\xAF\xA7\xF3\xBE\x8410\xA8\x9A\xF3\xBE\x841:\x08JcjSeNQr\x90\x01\x00\xAA\x01<\xDA\xAEI8\x1A6
++https://www.youtube.com/watch?v=-_Z73WzH29c\x10\xB1\xCF\x85\xB4\x8B\x8B\xFF\x02\xBA\x01\x1CBdkR6JwRISfiZGJ45XkKIhHUnAA=
+\x85\x02
+fZ:ADqtAZzdZNbvI5YeDgsToYBNJXiTEGYW79B5bvNA1YSKqms9BMKNTKH/bFB1cndbzohZzBoPH6mYGDMBjGC9qaIzg5UWTN003w== \xFA\x83\x80\x91\x8C\x8B\xFF\x02(\xA8\x8D\xFF\xBE\x8410\xFD\xA8\xF6\x84\x890:\x0FDESKTOP-A7PJ63F\x90\x01\x00\xAA\x01P\xBA\xBC\x18L
+\x18pVDUj4iv1h+zjWBr32trMQ==\x120\x12\x19\x08\x81\xF1\x94\x95\x07\x10\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\x01\x18\x01 \xDF\xF2\x94\x95\x07\x1A\x0FDESKTOP-A7PJ63F \x01(\x01\xBA\x01\x1C/nS4Y65a/gGefkDPsmgEaklupK0=
+\xEA\x01
+fZ:ADqtAZx8d1IxPTwOuM6XfuiDjgyE5UmIUD2c4mEpk70XFPbIWawBnzzYcMx2zmgN+lzpGkMRqkSeNk9NKebG5ERqGhVM/CgC5w== \xDB\xFD\xE1\xF1\x8A\x8B\xFF\x02(\xB4\xDC\xEA\xBE\x8410\xE7\xCF\xEA\xBE\x841:\x08.oKN %RA\x90\x01\x00\xAA\x01<\xDA\xAEI8\x1A6
++https://www.youtube.com/watch?v=Rc6sS-WC3b0\x10\x8E\xC2\xFF\xF0\x8A\x8B\xFF\x02\xBA\x01\x1CO7NhOco0fN8I8QvmIfNjwR7niEA=
+\xD2\x01
+fZ:ADqtAZzImNEiDmdLvKtE7+9E4e1vhaYEKtB7aulzLbVqSZxem5thsAKagbs42XuyIqlsCjZMBYKp89lFYtvEdM76EOSifITiIw== \xC2\xAD\xF3\xB1\x8A\x8B\xFF\x02(\x87\xC6\xE2\xBE\x8410\x94\xCD\xDE\xBE\x841:\x0Eusername|VITLi\x90\x01\x00\xAA\x01\x1E\x8A\xBF\x0F\x1A
+\x08username\x12\x05VITLi\x18\xC0\xB3\x94\xD7\xEE\xDD\xD6\x17\xBA\x01\x1CwCiZfWNGAoz37vpa8XNUJbt2wbM=
+\xCF\x04
+fZ:ADqtAZzdZNbvI5YeDgsToYBNJXiTa5IXPSmXbFnFGVHjsWjkkAydWK6/XW3CzpdKs/NsY203Q+vXKaHCmw99r2UFDzaxLtTrFQ== \xFE\xD0\x82\xA4\x8C\x8B\xFF\x02(\xF8\xC4\x81\xBF\x8410\xAD\xAE\xFE\xBE\x841:\x0FDESKTOP-A7PJ63F\x90\x01\x00\xAA\x01\x99\x03\xBA\xBC\x18\x94\x03
+\x18pVDUj4iv1h+zjWBr32trMQ==\x1A\xF5\x02\x08\xDF\xF2\x94\x95\x07\x10\x81\xF1\x94\x95\x07\x18\x00 \x00(\x002 agimnkijcaahngcdmfeangaknmldooml:\xBC\x02\x12+https://www.youtube.com/watch?v=Uo0zSxjC-tk\x1A\x00"{\xD0\x9A\xD0\x98\xD0\x9A\xD0\x90\xD0\x91\xD0\x98\xD0\x94\xD0\x97\xD0\x95: \xC2\xAB\xD0\x9C\xD0\xBD\xD0\xB5 \xD1\x81\xD1\x82\xD0\xB0\xD0\xBD\xD0\xB5\xD1\x82 \xD0\xBB\xD0\xB5\xD0\xB3\xD1\x87\xD0\xB5, \xD0\xB5\xD1\x81\xD0\xBB\xD0\xB8 \xD1\x8F \xD1\x83\xD0\xBC\xD1\x80\xD1\x83\xC2\xBB. \xD0\x9F\xD0\xBE\xD1\x81\xD0\xBB\xD0\xB5\xD0\xB4\xD0\xBD\xD0\xB5\xD0\xB5 \xD0\xB8\xD0\xBD\xD1\x82\xD0\xB5\xD1\x80\xD0\xB2\xD1\x8C\xD1\x8E - YouTube0\x00@\x98\x01H\xAB\xAE\xFE\xBE\x841P\x00X\x00`\x00x\xDA\x82\xB3\xCF\xF0\xDD\xD6\x17\x8A\x01@https://www.youtube.com/s/desktop/95c4ab27/img/favicon_32x32.png\xA0\x01\xC8\x01\xB0\x01\x00\xC8\x01\x06\xD0\x01\x01\xD8\x01\xDA\x82\xB3\xCF\xF0\xDD\xD6\x17\xE0\x01\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\x01\xE0\x01\xDA\x82\xB3\xCF\xF0\xDD\xD6\x17\xF2\x01\x02ruh\x01 \x00\xBA\x01\x1CJnEAr7b0RPp2aDiF6249pJ24O0s=
+\xEA\x01
+fZ:ADqtAZx8d1IxPTwOuM6XfuiDjgyECaq/7GGETptiZxP7hnCSZMpeAqhE1PIaSxy/4JmnKAHlhRxlHHEdana7fQzwpQGRwBtrcQ== \xDB\xFD\xE1\xF1\x8A\x8B\xFF\x02(\xB4\xDC\xEA\xBE\x8410\xE7\xCF\xEA\xBE\x841:\x08{vt:sUTA\x90\x01\x00\xAA\x01<\xDA\xAEI8\x1A6
++https://www.youtube.com/watch?v=yn3Gk1ZeGi4\x10\x85\xBF\xFF\xF0\x8A\x8B\xFF\x02\xBA\x01\x1Chl1UpFG9Z9QjKN0c1U55x3KS4Uw=
+\xEA\x01
+fZ:ADqtAZx8d1IxPTwOuM6XfuiDjgyEuftiZB8UkZIPkvFyKdrjPAHCDrndfeJIefJr9x6sMdcvgTP2t1d6xtr2/k5ZWyJbpxyl5A== \xAE\xF6\x8A\xF7\x8B\x8B\xFF\x02(\xDC\xE4\xFB\xBE\x8410\xF0\xD5\xFB\xBE\x841:\x089dF2s?z$\x90\x01\x00\xAA\x01<\xDA\xAEI8\x1A6
++https://www.youtube.com/watch?v=kqpu6jH8Das\x10\xD7\xF3\x96\xF6\x8B\x8B\xFF\x02\xBA\x01\x1CGugMojhe69RvR/CLVSIyeByqSHk=
+\xA4\x05
+fZ:ADqtAZyz8DNxw9cVeHpEIRx1VUhiVpMlWkGTdbgWkhv7kB8aA/vuvEyYi/hJsdXd03AzSAlhHVPe6bA4gRllRfK44+xbpwNAZw== \xC2\x8C\xBE\xEA\x8B\x8B\xFF\x02(\xA4\x96\xFA\xBE\x8410\xF9\xAF\xF0\x93\x841:*https://www.advantageonlineshopping.com/#/\x90\x01\x00\xAA\x01\xD3\x03\xEA\xF4\x13\xCE\x03
+*https://www.advantageonlineshopping.com/#/\x12\x12Advantage Shopping \x00:\xF0\x01\xA7\x90\x8F\xEA\x9F\xDB\xD6\x17\x8C\xFF\x83\xED\xC7\xDB\xD6\x17\xA4\xBE\xB9\xBF\xC8\xDB\xD6\x17\xF9\xCC\xB9\xCA\xC8\xDB\xD6\x17\xE8\xCB\xB3\xF1\xCF\xDB\xD6\x17\xE5\xF9\xC5\xB3\xD0\xDB\xD6\x17\xB4\xDD\xE4\xCD\xD2\xDB\xD6\x17\xFE\xF0\x8A\xFC\xD2\xDB\xD6\x17\x8B\xB4\xA3\xB1\xD3\xDB\xD6\x17\xE3\xA7\xCD\xCF\xD3\xDB\xD6\x17\x93\xC7\xE7\x8B\xDF\xDB\xD6\x17\x90\x81\xBE\x94\xDF\xDB\xD6\x17\xB2\xA5\xE0\xAA\xDF\xDB\xD6\x17\xCA\x9E\xFC\xED\xDF\xDB\xD6\x17\xE4\xE1\xE1\x9A\xE0\xDB\xD6\x17\x82\xC1\xB6\x86\xEA\xDB\xD6\x17\xF0\xDF\xAD\xB3\xEA\xDB\xD6\x17\x84\xBE\x93\x86\xFA\xDB\xD6\x17\xFF\xBD\x8E\xD5\xD8\xDC\xD6\x17\xD3\xC4\xAB\xC6\xEE\xDD\xD6\x17\x93\xF5\xBE\x8A\xEF\xDD\xD6\x17\xE7\x8D\xC6\xA2\xEF\xDD\xD6\x17\xB0\x8B\xB5\xB5\xEF\xDD\xD6\x17\xB6\xF2\x9A\xC7\xEF\xDD\xD6\x17\xD8\xD1\xF6\xD4\xEF\xDD\xD6\x17\x8A\xCD\xCA\xE7\xEF\xDD\xD6\x17\x99\xFC\xA0\xF4\xEF\xDD\xD6\x17\xDE\xD4\xF1\x84\xF0\xDD\xD6\x17\xBD\x95\xB7\x95\xF0\xDD\xD6\x17\xDD\xE1\x84\xAE\xF0\xDD\xD6\x17B\x96\x01\x81\x80\x80\x90\x03\x81\x80\x80\x90\x03\x81\x80\x80\x90\x03\x80\x80\x80\x80\x03\x86\x80\x80\x80\x03\x86\x80\x80\x88\x03\x86\x80\x80\x80\x03\x86\x80\x80\x88\x03\x86\x80\x80\x80\x03\x86\x80\x80\x88\x03\x86\x80\x80\x80\x03\x86\x80\x80\x88\x03\x86\x80\x80\x80\x03\x86\x80\x80\x80\x03\x86\x80\x80\x88\x03\x86\x80\x80\x80\x03\x86\x80\x80\x88\x03\x81\x80\x80\x90\x03\x81\x80\x80\x90\x03\x81\x80\x80\x90\x03\x81\x80\x80\x98\x03\x81\x80\x80\x98\x03\x81\x80\x80\x98\x03\x81\x80\x80\x98\x03\x81\x80\x80\x98\x03\x81\x80\x80\x98\x03\x81\x80\x80\x98\x03\x81\x80\x80\x98\x03\x81\x80\x80\x98\x03\x81\x80\x80\x98\x03\xBA\x01\x1CoUN43GKXfCmG5cAhXBR+U2SI4Wo=
+\xEA\x01
+fZ:ADqtAZx8d1IxPTwOuM6XfuiDjgyEJudxEYsYn3ekBmmHksGPO8TSJ26vvV/goiSqpGdvpj70b1xooSJuSIKlYak1ECiBXb8W/g== \x8A\xCB\xEB\xB4\x8B\x8B\xFF\x02(\xAF\xA7\xF3\xBE\x8410\xA9\x9A\xF3\xBE\x841:\x08lq#`[!A.\x90\x01\x00\xAA\x01<\xDA\xAEI8\x1A6
++https://www.youtube.com/watch?v=lC3evItekR4\x10\xC8\xD1\x85\xB4\x8B\x8B\xFF\x02\xBA\x01\x1CYbNVP1lrblRV2lCivZmI/ZpCpSc=
+\xEA\x01
+fZ:ADqtAZx8d1IxPTwOuM6XfuiDjgyEiA62OIIdlgNC0WLGy48fQqS2M5MmsQ0YwvjB/JA4zE6XJt2Qznnqul7/5iPRNrd2KPZudA== \xDB\xFD\xE1\xF1\x8A\x8B\xFF\x02(\xB4\xDC\xEA\xBE\x8410\xE7\xCF\xEA\xBE\x841:\x08\\3zcQ2$@\x90\x01\x00\xAA\x01<\xDA\xAEI8\x1A6
++https://www.youtube.com/watch?v=Rc6sS-WC3b0\x10\xFD\xC0\xFF\xF0\x8A\x8B\xFF\x02\xBA\x01\x1CM6EgZak+Nrlfj3qlxjea8SlPOnA=
+\xEA\x01
+fZ:ADqtAZx8d1IxPTwOuM6XfuiDjgyEr7M1immkG5A6oXtmvW/Amerqtpq+d3cIalNj2NZl8XMr2X2qPLlaaC60C6cbPTKXPQoPUw== \x8A\xCB\xEB\xB4\x8B\x8B\xFF\x02(\xAF\xA7\xF3\xBE\x8410\xA9\x9A\xF3\xBE\x841:\x08^naLyef@\x90\x01\x00\xAA\x01<\xDA\xAEI8\x1A6
++https://www.youtube.com/watch?v=lC3evItekR4\x10\xE8\xD0\x85\xB4\x8B\x8B\xFF\x02\xBA\x01\x1C1LZCeVXk111smGZNnlfm5C1P4WY= \x00*\x9B\x01\x08\xAC\xB4
+\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!dc\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xDF',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\xD5\x01\x08\xFC\xDE$\x12\xCE\x01\x12E\x08\x02\x12A
+\x06
+\x02st\x10\x00\x103\x1A\x1B	\x00\xF5\xBD\xB5X\xFC\x05\x00!\x00\xF5\xBD\xB5X\xFC\x05\x001\x80&f\x9C\xD6\xE3\x05\x002\x18
+\x16\x08\x02\x11\xE6M+\xC6X\xFC\x05\x00\x18\x00!\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x92\x01}
+4
+\x0Echrome_sync_st\x12\x0551!st\x1A\x12	\x1A-,\xC6X\xFC\x05\x00\x11\x1A-,\xC6X\xFC\x05\x00)\x9EK,\xC6X\xFC\x05\x00
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02\xBA\x01\x02\x08\x01*\x8E\x01\x08\x9A\xB7	\x12\x87\x01 \x00\x92\x01}
+4
+\x0Echrome_sync_di\x12\x0551!di\x1A\x12	\x1A-,\xC6X\xFC\x05\x00\x11\x1A-,\xC6X\xFC\x05\x00)\x94K,\xC6X\xFC\x05\x00
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02\xBA\x01\x02\x08\x01*\xCC\x01\x08\x88\x81\x02\x12\xC5\x01\x12<\x08\x02\x128
+\x06
+\x02bm\x10\x01\x103\x1A\x12	\x00\xF5\xBD\xB5X\xFC\x05\x00!\x00\xF5\xBD\xB5X\xFC\x05\x002\x18
+\x16\x08\x02\x11\xE6M+\xC6X\xFC\x05\x00\x18\x00!\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x92\x01}
+4
+\x0Echrome_sync_bm\x12\x0551!bm\x1A\x12	\x1A-,\xC6X\xFC\x05\x00\x11\x1A-,\xC6X\xFC\x05\x00)\x83K,\xC6X\xFC\x05\x00
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02\xBA\x01\x02\x08\x01*\x9B\x01\x08\xE8\xA9\x06\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!as\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xCF',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*r\x08\x8A\x91?\x12l \x00\x92\x01G
+E
+\x16annotation_chrome_sync\x12\x0551!cn\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xCB',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02\xA2\x01\x1D
+\x00\x1A\x0C\x08\xC7\x86\xB2\xA3\x06\x10\xA8\x91\x8D\xC1\x02"\x0B\x08\xCD\xC2\x8D\xA3\x06\x10\xF8\xC3\xE15*\x9B\x01\x08\xF1\xF7\x01\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!af\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xDB',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\x9B\x01\x08\xFA\xC1\x02\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!tm\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\x17(,\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\x9B\x01\x08\xC9\x95\x14\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!wm\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\x1E(,\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\x9B\x01\x08\xEC\xF9\x02\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!pp\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xCD',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\x9B\x01\x08\xC6\xA6\x02\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!pf\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xFF',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\x9B\x01\x08\xCD\xBE\x02\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!tu\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\x1B(,\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\xB1\x01\x08\xC7\x87\x03\x12\xAA\x01 \x00\x92\x01\xA4\x01
+[
+\x16annotation_chrome_sync\x12\x0551!ss\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00"\x14	~\xA8\x80\xC4X\xFC\x05\x00\x10\x02\x19\x0Cj\x8C\xFB.\x90?\x91)\x14(,\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\x9B\x01\x08\x9F\xEF\x05\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!es\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xE2',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\x9B\x01\x08\xF7\xF7\x02\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!ex\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xE1',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\xCC\x01\x08\xB1\xE6\x02\x12\xC5\x01\x12<\x08\x02\x128
+\x06
+\x02pw\x10\x00\x103\x1A\x12	\x00\xF5\xBD\xB5X\xFC\x05\x00!\x00\xF5\xBD\xB5X\xFC\x05\x002\x18
+\x16\x08\x02\x11\xE6M+\xC6X\xFC\x05\x00\x18\x00!\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x92\x01}
+4
+\x0Echrome_sync_pw\x12\x0551!pw\x1A\x12	\x1A-,\xC6X\xFC\x05\x00\x11\x1A-,\xC6X\xFC\x05\x00)\x99K,\xC6X\xFC\x05\x00
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02\xBA\x01\x02\x08\x01*+\x08\xDE\xD8\x12\x12\x15 \x00x\xED\x9D\xE9\x8B\xFF\xFF\xFF\xFF\xFF\x01\x80\x01\xE6\x9E\x87\xD4\x811*\x0E\x10\x00\x18\x01 \x00(\x000\x008\x00@\x00*\x9B\x01\x08\x94\x8B\x19\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!rl\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\x04(,\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*"\x08\xB9\xA1/\x12\x0C \x00x\x00\x80\x01\xC5\x9C\x87\xD4\x811*\x0E\x10\x00\x18\x01 \x00(\x000\x008\x00@\x00*\x9B\x01\x08\xC9\x8B)\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!wa\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)!(,\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\x9B\x01\x08\xCF\xF3\x03\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!ap\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xDD',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\x9B\x01\x08\xE1\xFC	\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!pr\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\x02(,\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\x13\x08\x81\xF5\x02\x12 \x00\x88\x01\x8F\x93\x93\xFF\xAB\xAA\xB4\xB4\x01*\x9B\x01\x08\xEB\x95	\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!dd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xFB',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02*\x9B\x01\x08\xA2\xB4\x05\x12\x94\x01 \x00\x92\x01\x8E\x01
+E
+\x16annotation_chrome_sync\x12\x0551!se\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\x06(,\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02
+E
+\x16annotation_chrome_sync\x12\x0551!bd\x1A\x12	\x00\x8Ax\xC0X\xFC\x05\x00\x11\x00\x8Ax\xC0X\xFC\x05\x00)\xC3',\xC6X\xFC\x05\x000\x80\x94\xE2\x83\x8C\x8B\xFF\x02 \x002%z0000016b-7b7d-794a-0000-00005d0d2e75:\x0B\x08\xC0p\x10\xE0\xA8\x01\x18Z \x0Br\x81\x01
+\x7F\x12}Chrome WIN 113.0.5672.127 (c541687b21a73452ab403e2dced7033ddc97ee9d-refs/branch-heads/5672@{#1202}) channel(stable),gzip(gfe)
+$$$$$$ Response Body For Transaction With Id 47 Ended $$$$$$
+
+****** Request Header For Transaction With Id 49 ******
+GET /services.properties HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D
+If-None-Match: W/"1010-1684737555113"
+If-Modified-Since: Mon, 22 May 2023 06:39:15 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 49 Ended $$$$$$
+
+****** Response Header For Transaction With Id 49 ******
+HTTP/1.1 304 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:35 GMT
+Connection: keep-alive
+ETag: W/"1010-1684737555113"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 49 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 36 ******
+	web_url("www.advantageonlineshopping.com",
+		"URL=https://www.advantageonlineshopping.com/",
+		"Resource=0",
+		"Referer=",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=/vendor/requirejs/require.js", ENDITEM,
+		"Url=/main.min.js", ENDITEM,
+		"Url=/services.properties", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 36 Ended $$$$$$
+
+****** Request Header For Transaction With Id 57 ******
+GET /catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D
+
+
+$$$$$$ Request Header For Transaction With Id 57 Ended $$$$$$
+
+****** Response Header For Transaction With Id 57 ******
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:35 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-store
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+vary: accept-encoding
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 57 Ended $$$$$$
+
+****** Response Body For Transaction With Id 57 ******
+{"parameters":[{"parameterName":"Email_in_login","datatype":"enum:[Yes,No]","description":"Determines whether a mandatory Email field is added to the login screen. Use this parameter to demonstrate that in BPT, a single component can be modified without updating other tests. Default = No. Yes = Add the Email Address field.","attributeTools":"BPT","locationInAdvantage":"Login page","locationInAdminTool":"Functional","parameterValue":"No"},{"parameterName":"AppPulse_user","datatype":"string","description":"UserName:Password for AppPulse user to trigger the relevant AppPulse features.","attributeTools":"AppPulse","locationInAdvantage":"Entire site","locationInAdminTool":"Mobile;Functional","parameterValue":"AppPulse:AppPulse1"},{"parameterName":"ShipEx_repeat_calls","datatype":"string","description":"Defines the number of times to repeat a call to ShipEx. Use this parameter to find unnecessary multiple calls to the same methods, and affects performance. Default = 0 (no repeat calling. ","attributeTools":"NV","locationInAdvantage":"Purchase","locationInAdminTool":"General;Performance","parameterValue":"0"},{"parameterName":"Add_product_to_incorrect_category","datatype":"enum:[Yes,No]","description":"Defines whether to move a Headphones item (product-id=13) from the Headphones category to the Speakers category. Use this parameter to demonstrate an error in GUI or API testing. Default = No (category is not changed). Yes = Modify the product category.","attributeTools":"LeanFT;UFT","locationInAdvantage":"Speakers page","locationInAdminTool":"Functional","parameterValue":"No"},{"parameterName":"DB_call_delay","datatype":"string","description":"Defines the number of seconds to delay the retrieval of countries during user registration. Default = 0 (no delay). Possible values = Any positive integer.","attributeTools":"LoadRunner;StormRunner","locationInAdvantage":"CREATE ACCOUNT page","locationInAdminTool":"Performance;ITOM","parameterValue":"0"},{"parameterName":"User_alternate_WSDL","datatype":"enum:[Yes,No]","description":"Determines whether to modify the field names on the user registration page. (Preferred payment method > Favorite payment; Phone > Mobile phone) Use this parameter to demonstrate API testing. Default = No. Yes = Use the second WSDL request to register a new user","attributeTools":"UFT","locationInAdvantage":"CREATE ACCOUNT page","locationInAdminTool":"Functional","parameterValue":"No"},{"parameterName":"Sum_added_to_cart","datatype":"string","description":"Defines a sum to be added to each cart calculation. The sum is updated in to both the Web and Mobile UI (no API). A user must be logged in to enable this change. Default = 0 (no sum added)","attributeTools":"LeanFT;UFT","locationInAdvantage":"Order payment page","locationInAdminTool":"Functional","parameterValue":"0"},{"parameterName":"Generate_memory_leak","datatype":"string","description":"Defines the amount of memory leak in megabytes while retrieving the order history. The memory leak is visible in both the UI and the API. Default = 0 (no leak at all). Positive Integer = Number, multiplied by 1000. For example 1 = 1000 megabyte memory leak.","attributeTools":"LoadRunner;StormRunner","locationInAdvantage":"Order history","locationInAdminTool":"Performance;ITOM","parameterValue":"0"},{"parameterName":"Postgres_Locks","datatype":"enum:[Tip]","description":"To generate a exhaustion of\xC2\xA0PostgresSQL\xC2\xA0locks, go to CONTACT US type \xE2\x80\x98database\xE2\x80\x99 at the Subject and click SEND.","attributeTools":"Ops B","locationInAdvantage":"Mobile, Entire App","locationInAdminTool":"Performance;ITOM","parameterValue":"Tip"},{"parameterName":"Max_concurrent_users","datatype":"string","description":"Defines the maximum number of concurrent users allowed. Any additional users are rejected with an error code 500. Default = 0 (no concurrent sessions allowed). Possible values = Any positive integer.","attributeTools":"LoadRunner;StormRunner;NV","locationInAdvantage":"Login response","locationInAdminTool":"Performance;ITOM","parameterValue":"0"},{"parameterName":"Typos_on_order_payment","datatype":"enum:[Yes,No]","description":"Determines whether spelling errors appear in the UI. Default = No. Yes = The following spelling errors are shown: - SHIPING DETAILS - Ciity - Recipeint Details (Web only) - ORDERR SUMMARY (Web only)","attributeTools":"Sprinter","locationInAdvantage":"Web: ORDER PAYMENT page ; Mobile: SHIPPING DETAILS page","locationInAdminTool":"Functional","parameterValue":"No"},{"parameterName":"Misplace_pictures_on_Android","datatype":"enum:[Yes,No]","description":"Determines whether pictures are placed differently on the home page when viewed on an Android  device. Use this parameter to demonstrate how the application may function differently on different mobile OSs. Default = No. Yes = Pictures are placed differently on Android devices.","attributeTools":"LeanFT;MobileCenter;UFT","locationInAdvantage":"Home page","locationInAdminTool":"Mobile;Functional","parameterValue":"No"},{"parameterName":"Add_to_cart_time_delay","datatype":"string","description":"Defines the number of seconds to add as a delay in response time when a logged in user adds an item to cart. Default = 0 (no delay).","attributeTools":"LoadRunner;StormRunner","locationInAdvantage":"DefaultShoppingCartRepository","locationInAdminTool":"ITOM;Performance","parameterValue":"0"},{"parameterName":"SLA_add_delay_time","datatype":"string","description":"Defines the number of seconds to add as a delay in response time when trying to login. Default = 0 (no delay). If you modify this value, also modify the SLA_add_delay_sessions parameter.","attributeTools":"LoadRunner;StormRunner","locationInAdvantage":"AccountServiceEndpoint","locationInAdminTool":"Performance","parameterValue":"0"},{"parameterName":"SLA_add_delay_sessions","datatype":"string","description":"Defines a number of concurrent users sessions at which a delay is added to login response. Enabled only when SLA_add_delay_time is set to a number greater than 0. Default = 20. Valid values = 0-n. The system starts adding a delay if the number of sessions is greater than the defined value. It will stop the delay if the number of sessions is decreased to less than the defined value. If you modify this value, also modify the SLA_add_delay_time parameter.","attributeTools":"LoadRunner;StormRunner","locationInAdvantage":"ADD TO CART response","locationInAdminTool":"Performance","parameterValue":"0"},{"parameterName":"Show_slow_pages","datatype":"enum:[Yes,No]","description":"Determines whether NV report shows problems and errors: HTTP Codes 4xx and 5xx, loading unused libraries, timeout, downloading big images, etc. ","attributeTools":"NV;StormRunner","locationInAdvantage":"Home Page; Laptops Page","locationInAdminTool":"Performance","parameterValue":"No"},{"parameterName":"Price_diffs_UI_vs_API","datatype":"enum:[Yes,No]","description":"Creates a difference in the prices shown in the UI and the prices used in the API. Default = No. Yes = Price is doubled in the UI only, for both desktop and mobile, across the entire app.","attributeTools":"LeanFT;UFT","locationInAdvantage":"Entire site","locationInAdminTool":"Functional","parameterValue":"No"},{"parameterName":"Allow_Error_in_Login","datatype":"enum:[Yes,No]","description":"Determines whether an invalid passwords are allowed. These would trigger an error in a test, indicating a security gap in the product. Default = No. Yes = Invalid passwords allowed, such as an empty password, or \xE2\x80\x981\xE2\x80\x99=\xE2\x80\x991\xE2\x80\x99","attributeTools":"Fortify","locationInAdvantage":"Login page","locationInAdminTool":"Security","parameterValue":"No"},{"parameterName":"Tips_Implement_DevOps_Process","datatype":"enum:[Tip]","description":"To demonstrate the DevOpps process in a lifecycle management product, do the following: \xC2\xA0       1. In Octane, in your product release, add a user story to change an invalid user name or password text.         2. Demonstrate that you can view this new user story in your IDE.         3. Implement the user story by changing the MESSAGE_USER_LOGIN_FAILED error message in the following file: \\\\adm-demo-app\\\\accountservice\\\\src\\\\main\\\\java\\\\com\\\\advantage\\\\accountsoap\\\\model\\\\Account.java.         For example, change it from \\"Invalid user name or password\\" to \\"Incorrect user name or password, please try again\\".         4. Demonstrate the DevOps process and that you can now see the new error message on both desktop and mobile.","attributeTools":"","locationInAdvantage":"Change password","locationInAdminTool":"General","parameterValue":"Tip"},{"parameterName":"ShipEx_Free_Number_Of_Products","datatype":"string","description":"The quantity of products in a single purchase that are entitled to free shipping. Default = 1.","attributeTools":"","locationInAdvantage":"Order Payment","locationInAdminTool":"General","parameterValue":"1"},{"parameterName":"Tips_Mock_SOAP_ShipEx_Service","datatype":"enum:[Tip]","description":"The shipping cost is determined by a table table in the 'shipex-mock-for-db.properties' configuration file, according to country.  Shipping costs to countries not defined in the table are determined based on the value for Other.  Free shipping can be provided when the number of items ordered is equal to or less than the value  of the 'ShipEx_Free_Number_Of_Products' configuration parameter (default = 1).","attributeTools":"","locationInAdvantage":"Order Payment","locationInAdminTool":"General","parameterValue":"Tip"},{"parameterName":"Tips_Application_Development_Environment","datatype":"enum:[Tip]","description":"The Advantage demo site uses the following software versions and interfaces:  - Java server: Java 8  - Application server: Tomcat 8  - Web UI: Angular 1.47  - Admin Application: Standalone .NET  - Database: PostgreSQL 9.4  - Schema Management: Liquibase 3.4  - Catalog, Order Services: REST API  - User Management: WSDL.","attributeTools":"","locationInAdvantage":"","locationInAdminTool":"General","parameterValue":"Tip"},{"parameterName":"Tips_Scripting","datatype":"enum:[Tip]","description":"The demo app IP addresses are not fixed. In any scripts you create for a demo, make sure to use a parameter for the application IP address.","attributeTools":"LeanFT;UFT;LoadRunner;StormRunner","locationInAdvantage":"","locationInAdminTool":"Performance;Functional","parameterValue":"Tip"},{"parameterName":"Tips_Fill_User_Location_From_GPS","datatype":"enum:[Tip]","description":"To use your GPS location instead of the default values, toggle on the Use my location option on the following pages:  1. CREATE ACCOUNT, for the user account details.  2. ORDER PAYMENT, for the shipping details.","attributeTools":"MobileCenter","locationInAdvantage":"Create Account, Order Payment - Shipping details","locationInAdminTool":"Mobile","parameterValue":"Tip"},{"parameterName":"Tips_Mock_MasterCredit_Generate_Error","datatype":"enum:[Tip]","description":"To generate an error using the MasterCredit card, enter a MasterCredit expiration date earlier than the current day.","attributeTools":"","locationInAdvantage":"Order Payment","locationInAdminTool":"General","parameterValue":"Tip"},{"parameterName":"Tips_Mock_SafePay_Generate_Error_409","datatype":"enum:[Tip]","description":"To generate an error using SafePay, enter identical (case sensitive) username and password.","attributeTools":"AppPulse","locationInAdvantage":"Web: Order Payment; Mobile: Payment Method (SafePay)","locationInAdminTool":"Functional;Mobile","parameterValue":"Tip"},{"parameterName":"Tips_WebSocket_example","datatype":"enum:[Tip]","description":"To demonstrate WebSocket features, use the chat widget located on the Home page (http://www.advantageonlineshopping.com/), under Contact Us.","attributeTools":"LoadRunner","locationInAdvantage":"Home page - CONTACT US","locationInAdminTool":"Performance","parameterValue":"Tip"},{"parameterName":"Tips_Support_Different_Types_Of_Controls","datatype":"enum:[Tip]","description":"Use the following UI elements to demonstrate various functional testing features:  * String: On the CREATE ACCOUNT or ACCOUNT DETAILS page, update the Personal Details fields.  * Radio button: On the ORDER PAYMENT page, select a payment method.  * Date value: On the ORDER PAYMENT page, select the MasterCredit option and then enter an expiration date.  * List box: On the CREATE ACCOUNT page, select a country from the Country drop down list.  * Multiple selection: Browse products by category and filter the products shown by using the options on the left","attributeTools":"BPT;MobileCenter;LeanFT;UFT","locationInAdvantage":"Entire Site","locationInAdminTool":"Functional;Mobile","parameterValue":"Tip"},{"parameterName":"Tips_System_Configuration","datatype":"enum:[Tip]","description":"The Admin UI menu and pages are read-only in the shared system on the cloud.  You can make changes in a local instance.  Troubleshooting: If you are unable to make changes in a local instance:  1. Navigate to the DemoApp.properties file.  2. Ensure that the Allow user configuration value is set to Yes. This is the default setting.  3. Verify that you can configure the relevant field from the Admin UI as needed.","attributeTools":"","locationInAdvantage":".NET Admin app","locationInAdminTool":"General","parameterValue":"Tip"},{"parameterName":"Tips_replace_3rd_party_services_with_SV","datatype":"enum:[Tip]","description":"Replace the ShipEx, MasterCredit, or SafePay 3rd party services with Service Virtualization by updating the relevant URLs in the services.properties configuration file.  This file is located in properties folder of 5 services: accountservice, MasterCredit, order, ROOT, SafePay.  For example: /accountservice/properties/services.properties.  1. Navigate to the <service-name>.url.host line, and modify the URL/IP address string to the Service Virtualization URL and IP address.  2. Navigate to the <service-name>.url.port line and modify the port string to the Service Virtualization port.  3. Save the file, and repeat these steps for each service in the services.properties file, and in the services.properties files for each service.","attributeTools":"SV","locationInAdvantage":"ShipEx;MasterCredit;SafePay","locationInAdminTool":"Functional","parameterValue":"Tip"},{"parameterName":"Tips_How_To_Use_Product_Video","datatype":"enum:[Tip]","description":"ADM performance tools support HTML5 video streaming via: native browsers, plugins such as Adobe Flash, or standalone software.  To demonstrate this feature, browse to one of the following products and view the demo video:  - HP ROAR WIRELESS SPEAKER (Product ID: 22)  - BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES (product ID: 15)  - HP ELITEPAD 1000 G2 TABLET (product ID: 16)","attributeTools":"LoadRunner","locationInAdvantage":"Selected Products","locationInAdminTool":"Performance","parameterValue":"Tip"},{"parameterName":"Tips_regular_expression","datatype":"enum:[Tip]","description":"The button text always starts with Pay to allow for demonstrating regular expressions in object identification.","attributeTools":"LeanFT;UFT","locationInAdvantage":"Pay button in cart sum","locationInAdminTool":"Functional","parameterValue":"Tip"},{"parameterName":"Tips_correlation_example","datatype":"enum:[Tip]","description":"To demonstrate correlation, make sure that you include a login step in your flow.  The correlation is implemented with the session ID.","attributeTools":"LoadRunner","locationInAdvantage":"Web Application Login","locationInAdminTool":"Performance","parameterValue":"Tip"},{"parameterName":"Tips_async_example","datatype":"enum:[Tip]","description":"ADM performance tools support asynchronous communication.  To demonstrate this feature, browse to any of the products in the HEADPHONES category, and record the comments (web only).","attributeTools":"LoadRunner","locationInAdvantage":"Performance","locationInAdminTool":"Performance","parameterValue":"Tip"},{"parameterName":"Tips_Swagger_Interface_For_REST_APIs","datatype":"enum:[Tip]","description":"To use Swagger interface for REST APIs change the URL to http://<your-server>:<port>/<service>/api/docs.  <service> can be on of the following (case sensitive): catalog, order, MasterCredit or SafePay.  For example: http://www.advantageonlineshopping.com:80/catalog/api/docs.","attributeTools":"","locationInAdvantage":"catalog,MasterCredit,order,SafePay services","locationInAdminTool":"General","parameterValue":"Tip"},{"parameterName":"Tips_REST_API_Params_In_Request_URL","datatype":"enum:[Tip]","description":"Send the REST API request and parameters in request URL. Example: http://www.advantageonlineshopping.com/catalog/api/v1/products/1.","attributeTools":"UFT","locationInAdvantage":"catalog,MasterCredit,order,SafePay services","locationInAdminTool":"Functional","parameterValue":"Tip"},{"parameterName":"Tips_REST_API_Params_In_Request_Body","datatype":"enum:[Tip]","description":"Send the REST API parameters in the request body. Example: http://www.advantageonlineshopping.com/MasterCredit/api/v1/payments/payment, body: { \\"MCCVVNumber\\": 666, \\"MCCardNumber\\": 6543210987654321, \\"MCCustomerName\\": \\"King David\\", \\"MCCustomerPhone\\": \\"+12025551969\\", \\"MCExpirationDate\\": \\"032017\\", \\"MCRecevingAmount.Value\\": 2011.03, \\"MCRecevingCard.AccountNumber\\": 112987298763, \\"MCRecevingCard.Currency\\": \\"USD\\", \\"MCTransactionDate\\": \\"02092016\\", \\"MCTransactionType\\": \\"PAYMENT\\" }.","attributeTools":"UFT","locationInAdvantage":"catalog,MasterCredit,order,SafePay services","locationInAdminTool":"Functional","parameterValue":"Tip"},{"parameterName":"Tips_DFE","datatype":"enum:[Tip]","description":"Send login request and response in Base-64 encoded, instead of in plain text, to show DFE in snapshot (display only).","attributeTools":"LoadRunner","locationInAdvantage":"Web Application Login","locationInAdminTool":"Performance","parameterValue":"Tip"},{"parameterName":"Tips_validation_example","datatype":"enum:[Tip]","description":"To demonstrate validation: Perform a flow where you buy the contents of the cart, then go to the My Orders page and look for the order by its order number (shows positive\xC2\xA0validation). Delete the order, then look for the order by its number again (shows negative\xC2\xA0validation).","attributeTools":"LoadRunner","locationInAdvantage":"My Orders","locationInAdminTool":"Performance","parameterValue":"Tip"},{"parameterName":"Mobile_crash","datatype":"enum:[Tip]","description":"To generate a crash, login with AppPulse user and change\xC2\xA0the device orientation from\xC2\xA0portrait to landscape","attributeTools":"AppPulse","locationInAdvantage":"Mobile: entire app","locationInAdminTool":"Mobile;Functional;ITOM","parameterValue":"Tip"},{"parameterName":"Slow_launch_of_the_native_app","datatype":"enum:[Tip]","description":"To show a slow launch, log in as the AppPulse user and kill the app. From this point on, any launch will be slow until you log in with a different user","attributeTools":"AppPulse","locationInAdvantage":"Android\xC2\xA0native app: Launch","locationInAdminTool":"Mobile;Performance","parameterValue":"Tip"},{"parameterName":"Error_500","datatype":"enum:[Tip]","description":"To generate error 500, login with AppPulse user, add items to\xC2\xA0the the cart, checkout and click on pay now","attributeTools":"AppPulse","locationInAdvantage":"Order Payment","locationInAdminTool":"Mobile;Functional;ITOM","parameterValue":"Tip"},{"parameterName":"Error_403","datatype":"enum:[Tip]","description":"To generate error 403, click on the 'Sign in with Facebook' button.","attributeTools":"AppPulse","locationInAdvantage":"Login page","locationInAdminTool":"Mobile;Functional;ITOM","parameterValue":"Tip"},{"parameterName":"Use_Camera_Capability","datatype":"enum:[Tip]","description":"Add an option to enable the user to take a picture with the camera . This picture will be added to the current product page. In offline mode, the picture is retained for the current session only. When using MC, if \xE2\x80\x9CCamera Sensor\xE2\x80\x9D is enabled, this picture will be replaced with the picture the user previously uploaded to MC.","attributeTools":"MobileCenter","locationInAdvantage":"Mobile apps: Product page","locationInAdminTool":"Mobile","parameterValue":"Tip"},{"parameterName":"Tips_SQL_injection_vulnerability","datatype":"enum:[Tip]","description":"A functional test finds the following defect: The user creates a user with any\xC2\xA0Username, but the\xC2\xA0name that is actually created is duplicated, as displayed at\xC2\xA0the top right side of the site.\xC2\xA0\xC2\xA0 The user opens a defect, fixes the code, and commits the change. This triggers a Fortify scan (provided that you added the Fortify scan trigger in the code change) that will find an\xC2\xA0SQL injection\xC2\xA0vulnerability.  To achieve this, you must edit the\xC2\xA0accountservice\\\\src\\\\main\\\\java\\\\com\\\\advantage\\\\accountsoap\\\\dao\\\\impl\\\\DefaultAccountRepository\xC2\xA0file. In this file, first uncomment the\xC2\xA0code that is located\xC2\xA0between the\xC2\xA0'SQL injection vulnerability' tags. \xC2\xA0Then, comment out the code that is located between the 'Code without\xC2\xA0SQL injection vulnerability' tags. Note that there are 2 locations in the code in which you need to make these changes.","attributeTools":"Fortify, LeanFT, UFT","locationInAdvantage":"Create Account page","locationInAdminTool":"Security","parameterValue":"Tip"},{"parameterName":"Enable_Warranty","datatype":"enum:[Yes,No]","description":"Determines whether a warranty checkbox is added to each laptop product screen. Use this parameter to demonstrate an integration between AOS and COBOL, during checkout AOS backend invoke a COBOL service to activate a warranty for laptop. Default = No. Yes = Add a checkbox to the laptop product page.","attributeTools":"AMC","locationInAdvantage":"Laptops","locationInAdminTool":"General","parameterValue":"No"},{"parameterName":"Warranty_Service_URL","datatype":"string","description":"The URL of the COBOL web service to be used for the warranty, the default service is located on AZURE. the default URL is: https://aoswarrantyfunction.azurewebsites.net/api/Function1?code=KEK/GaiTZ0lfJdRkJGgNdsn8qfenPseDGaS3j3n8noI6AGtSIriLAg== note: mouse over on the text field to view the current URL.","attributeTools":"AMC","locationInAdvantage":"Laptops","locationInAdminTool":"General","parameterValue":"https://aoswarrantyfunction.azurewebsites.net/api/Function1?code=KEK/GaiTZ0lfJdRkJGgNdsn8qfenPseDGaS3j3n8noI6AGtSIriLAg=="},{"parameterName":"Enable_Voltage_Encryption","datatype":"enum:[Yes,No]","description":"Use this parameter to demonstrate an integration between Voltage Data Encryption And AOS. The MasterCredit number is encrypted when the flag is set to 'Yes'","attributeTools":"AMC","locationInAdvantage":"Payment page","locationInAdminTool":"General","parameterValue":"No"},{"parameterName":"Voltage_Service_URL","datatype":"string","description":"The URL of the Voltage Data Encryption service to be used for the encryption, the default service is located on AZURE. the default URL is: https://voltage-pp-0000.dataprotection.voltage.com note: mouse over on the text field to view the current URL.","attributeTools":"ITOM","locationInAdvantage":"Payment page","locationInAdminTool":"General","parameterValue":"https://voltage-pp-0000.dataprotection.voltage.com"},{"parameterName":"duplicate_countries","datatype":"enum:[Yes,No]","description":"Duplicates the countries in adv_account DB, causing error during registration. Note: Restart required.","attributeTools":"ITOM","locationInAdvantage":"Registration page","locationInAdminTool":"General","parameterValue":"No"},{"parameterName":"AOB_Endpoint","datatype":"string","description":"Purchases made using AOB user, will create a transaction on AOB system, on the current endpoint","attributeTools":"","locationInAdvantage":"Purchase Page","locationInAdminTool":"General","parameterValue":"http://advantageonlinebanking.com/api/accounts/purchase"}]}
+$$$$$$ Response Body For Transaction With Id 57 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 57 ****** (Location Flag : tFlagInsertEnd, Location ID : 57)
+	web_url("ALL",
+		"URL=https://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t2.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 57 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 36)
+	web_add_header("Sec-Fetch-Site",
+		"none");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 36)
+	web_add_header("Sec-Fetch-Mode",
+		"navigate");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 36)
+	web_add_header("Sec-Fetch-Dest",
+		"document");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 36)
+	web_add_header("Sec-Fetch-User",
+		"?1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 36)
+	web_add_header("Upgrade-Insecure-Requests",
+		"1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 36)
+	web_add_auto_header("sec-ch-ua",
+		"\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 36)
+	web_add_auto_header("sec-ch-ua-mobile",
+		"?0");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 36)
+	web_add_auto_header("sec-ch-ua-platform",
+		"\"Windows\"");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 66 ******
+GET /css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Origin: https://www.advantageonlineshopping.com
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: https://www.advantageonlineshopping.com/css/main.min.css
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D
+If-None-Match: W/"25020-1641810512000"
+If-Modified-Since: Mon, 10 Jan 2022 10:28:32 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 66 Ended $$$$$$
+
+****** Response Header For Transaction With Id 66 ******
+HTTP/1.1 304 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:36 GMT
+Connection: keep-alive
+ETag: W/"25020-1641810512000"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 66 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 57 ******
+	web_url("ALL",
+		"URL=https://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t2.inf",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff", "Referer=https://www.advantageonlineshopping.com/css/main.min.css", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 57 Ended $$$$$$
+
+****** Request Header For Transaction With Id 73 ******
+GET /css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Origin: https://www.advantageonlineshopping.com
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: https://www.advantageonlineshopping.com/css/main.min.css
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D
+If-None-Match: W/"25048-1641810512000"
+If-Modified-Since: Mon, 10 Jan 2022 10:28:32 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 73 Ended $$$$$$
+
+****** Response Header For Transaction With Id 73 ******
+HTTP/1.1 304 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:36 GMT
+Connection: keep-alive
+ETag: W/"25048-1641810512000"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 73 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 57 ******
+	web_url("ALL",
+		"URL=https://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t2.inf",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff", "Referer=https://www.advantageonlineshopping.com/css/main.min.css", ENDITEM,
+		"Url=/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff", "Referer=https://www.advantageonlineshopping.com/css/main.min.css", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 57 Ended $$$$$$
+
+****** Request Header For Transaction With Id 77 ******
+POST /accountservice/ws/GetAccountConfigurationRequest HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+Content-Length: 361
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Accept: application/xml, text/xml, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+SOAPAction: com.advantage.online.store.accountserviceGetAccountConfigurationRequest
+sec-ch-ua-platform: "Windows"
+Origin: https://www.advantageonlineshopping.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1
+
+
+$$$$$$ Request Header For Transaction With Id 77 Ended $$$$$$
+
+****** Request Body For Transaction With Id 77 ******
+<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetAccountConfigurationRequest xmlns="com.advantage.online.store.accountservice"></GetAccountConfigurationRequest></soap:Body></soap:Envelope>
+$$$$$$ Request Body For Transaction With Id 77 Ended $$$$$$
+
+****** Response Header For Transaction With Id 77 ******
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:36 GMT
+Content-Type: text/xml;charset=utf-8
+Content-Length: 823
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-store
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Origin: *
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+SOAPAction: ""
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 77 Ended $$$$$$
+
+****** Response Body For Transaction With Id 77 ******
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:GetAccountConfigurationResponse xmlns:ns2="com.advantage.online.store.accountservice"><ns2:numberOfFailedLoginAttemptsBeforeBlocking>3</ns2:numberOfFailedLoginAttemptsBeforeBlocking><ns2:loginBlockingIntervalInSeconds>300</ns2:loginBlockingIntervalInSeconds><ns2:productInStockDefaultValue>10</ns2:productInStockDefaultValue><ns2:userSecondWsdl>false</ns2:userSecondWsdl><ns2:userLoginTimeout>60</ns2:userLoginTimeout><ns2:allowUserConfiguration>true</ns2:allowUserConfiguration><ns2:productionHostIp>http://54.175.138.128:8081</ns2:productionHostIp><ns2:productionHostName>http://advantageonlineshopping.com</ns2:productionHostName></ns2:GetAccountConfigurationResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+$$$$$$ Response Body For Transaction With Id 77 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 77 ****** (Location Flag : tFlagInsertEnd, Location ID : 77)
+	web_custom_request("GetAccountConfigurationRequest",
+		"URL=https://www.advantageonlineshopping.com/accountservice/ws/GetAccountConfigurationRequest",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/xml",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t3.inf",
+		"Mode=HTML",
+		"EncType=text/xml; charset=UTF-8",
+		"Body=<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><GetAccountConfigurationRequest xmlns=\"com.advantage.online.store.accountservice\"></GetAccountConfigurationRequest></soap:Body></soap:Envelope>",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 77 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 77)
+	web_add_cookie("_gat=1; DOMAIN=www.advantageonlineshopping.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 57)
+	web_add_auto_header("Sec-Fetch-Dest",
+		"empty");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 57)
+	web_add_auto_header("Sec-Fetch-Mode",
+		"cors");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 57)
+	web_add_auto_header("Sec-Fetch-Site",
+		"same-origin");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 81 ******
+GET /css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Origin: https://www.advantageonlineshopping.com
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: https://www.advantageonlineshopping.com/css/main.min.css
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D
+If-None-Match: W/"24576-1641810512000"
+If-Modified-Since: Mon, 10 Jan 2022 10:28:32 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 81 Ended $$$$$$
+
+****** Response Header For Transaction With Id 81 ******
+HTTP/1.1 304 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:36 GMT
+Connection: keep-alive
+ETag: W/"24576-1641810512000"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 81 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/accountservice/ws/GetAccountConfigurationRequest
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 77 ******
+	web_custom_request("GetAccountConfigurationRequest",
+		"URL=https://www.advantageonlineshopping.com/accountservice/ws/GetAccountConfigurationRequest",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/xml",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t3.inf",
+		"Mode=HTML",
+		"EncType=text/xml; charset=UTF-8",
+		"Body=<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><GetAccountConfigurationRequest xmlns=\"com.advantage.online.store.accountservice\"></GetAccountConfigurationRequest></soap:Body></soap:Envelope>",
+		EXTRARES,
+		"Url=/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff", "Referer=https://www.advantageonlineshopping.com/css/main.min.css", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 77 Ended $$$$$$
+
+****** Request Header For Transaction With Id 85 ******
+GET /catalog/api/v1/categories HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1
+
+
+$$$$$$ Request Header For Transaction With Id 85 Ended $$$$$$
+
+****** Response Header For Transaction With Id 85 ******
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:36 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-store
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+vary: accept-encoding
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 85 Ended $$$$$$
+
+****** Response Body For Transaction With Id 85 ******
+[{"categoryId":1,"categoryName":"LAPTOPS","managedImageId":"laptops","products":[{"id":1,"productName":"HP Pavilion 15t Touch Laptop","price":519.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1100"},{"id":5,"productName":"HP Stream - 11-d020nr Laptop","price":179.99,"description":"Work from a happy place with a stylish, affordable, Windows-based PC. Store your content in the cloud for easy access from anywhere you have internet.","productStatus":"Active","managedImageId":"1245"},{"id":8,"productName":"HP ZBook 17 G2 Mobile Workstation","price":1799.0,"description":"On the go creativity knows no limits on a vivid 17.3 inch diagonal HP ZBook 17 G2. Showcase your best work in the office or on the go and take advantage of HP\xE2\x80\x99s most powerful processing, graphics, simple scalability, and blazing-fast connectivity to perform and collaborate at the speed of creativity.","productStatus":"Active","managedImageId":"1800"},{"id":11,"productName":"HP Pavilion x360 - 11t Touch Laptop","price":319.99,"description":"There\xE2\x80\x99s no limit to what this value-packed convertible PC can do. Easily convert from notebook to stand to tent to tablet mode. It\xE2\x80\x99s an app-loving, friend-connecting, 360\xC2\xB0-bending machine.","productStatus":"Active","managedImageId":"11100"},{"id":2,"productName":"HP Pavilion 15z Laptop","price":549.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1200"},{"id":3,"productName":"HP Pavilion 15z Touch Laptop","price":449.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1300"},{"id":6,"productName":"HP ENVY x360 - 15t Laptop","price":699.99,"description":"We took our remarkable 360\xC2\xB0 convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks.","productStatus":"Active","managedImageId":"1600"},{"id":10,"productName":"HP Chromebook 14 G1(ES)","price":1261.99,"description":"Introducing the next generation HP EliteBook Folio 9480m Ultrabook\xE2\x84\xA2[2]. Timeless, ultra slim profile in an all metal design with optional 4G Broadband wWAN, and 4th Generation Intel\xC2\xAE Core\xE2\x84\xA2 Processing Technology.","productStatus":"Active","managedImageId":"1250"},{"id":9,"productName":"HP Chromebook 14 G1(ENERGY STAR)","price":299.99,"description":"This HP notebook is all about getting the perfect combination of design, reliability, and features. Style and productivity while keeping your wallet in mind - now that's something to get excited about.","productStatus":"Active","managedImageId":"1249"},{"id":7,"productName":"HP ENVY - 17t Touch Laptop","price":849.99,"description":"We took our remarkable 360\xC2\xB0 convertible PC and enhanced it with premium features to give you ultimate flexibility and enviable looks.","productStatus":"Active","managedImageId":"1700"},{"id":4,"productName":"HP Spectre x360 - 13-4102dx","price":1399.99,"description":"Stunning, ultra-slim convertible PC with a 360\xC2\xB0 hinge","productStatus":"Active","managedImageId":"1400"}]},{"categoryId":2,"categoryName":"HEADPHONES","managedImageId":"headphones","products":[{"id":12,"productName":"HP H2310 In-ear Headset","price":13.99,"description":"Enjoy an acoustic concert in your ears with HP\xE2\x80\x99s In-Ear Headset H2310. Available in trend-setting design in four color options and compatible with most smartphones, MP3 players and tablets \xE2\x80\x93 including Android\xE2\x84\xA2 and Apple\xC2\xAE. Easily switch from jamming to tunes to connecting with friends using the inline microphone. Quality craftsmanship, value priced, and awesome sound.","productStatus":"Active","managedImageId":"2100"},{"id":14,"productName":"Logitech USB Headset H390","price":39.99,"description":"Features on this product will exceeded your expectations.","productStatus":"Active","managedImageId":"2400"},{"id":15,"productName":"Beats Studio 2 Over-Ear Matte Black Headphones","price":179.99,"description":"The world\xE2\x80\x99s most famous headphone has been completely redesigned and reimagined. The new Beats Studio\xC2\xAE is lighter, sexier, stronger, and more comfortable, with precision sound, Adaptive Noise Canceling, a 20-hour rechargeable battery, and RemoteTalk\xE2\x84\xA2. It has all the energy and excitement you expect from Beats, plus a powerful, reengineered sound.","productStatus":"Active","managedImageId":"2200"},{"id":13,"productName":"Bose SoundLink Around-ear Wireless Headphones II","price":279.95,"description":"Wireless freedom meets best-in-class sound.","productStatus":"OutOfStock","managedImageId":"2300"}]},{"categoryId":3,"categoryName":"TABLETS","managedImageId":"tablets","products":[{"id":18,"productName":"HP Pro Tablet 608 G1","price":479.0,"description":"Transform your business with this small stylish business tablet equipped with a brilliant, high definition display and the pervasive connectivity to mobilize nearly any business process. Choose from an expansive choice of accessories[2] for a customized experience.","productStatus":"Active","managedImageId":"3300"},{"id":16,"productName":"HP ElitePad 1000 G2 Tablet","price":1009.0,"description":"More than a tablet\xE2\x80\x94a total business solution. The elegant and sleek HP ElitePad 1000 G2 has the performance and flexibility to transform the way you work. Redefine productivity and stay light with the confidence of the leading manageability, security, and support you expect from HP.","productStatus":"Active","managedImageId":"3100"},{"id":17,"productName":"HP Elite x2 1011 G1 Tablet","price":1279.0,"description":"Ultrabook\xE2\x84\xA2[2] Power\\nPower up for ultimate power with Windows 8.1,[1] 5th Gen Intel\xC2\xAE Core\xE2\x84\xA2 M processors,[4] with optional vPro\xE2\x84\xA2[5] and long battery life provided by dual tablet and keyboard base batteries.","productStatus":"Active","managedImageId":"3200"}]},{"categoryId":4,"categoryName":"SPEAKERS","managedImageId":"speakers","products":[{"id":23,"productName":"Logitech X100 Speaker System - Wireless Speaker(s)","price":49.99,"description":"Pump up the volume and enjoy crystal-clear sound from this mobile speaker. This portable speaker is perfect for life on-the-go. Take it on the road or relax and listen at home because this mobile speaker goes everywhere. Simple, intuitive design lets you wirelessly connect and stream music from your Bluetooth-enabled device from up to 30' away. Easily manage phone calls and volume control from your mobile phone. Enjoy five hours of continuous play before you need to recharge. Recharge the built-in, lithium-ion battery with the convenience of the included micro-USB cable.","productStatus":"Active","managedImageId":"4500"},{"id":24,"productName":"HP Roar Mini Wireless Speaker","price":44.99,"description":"Attention-getting design, color, and sound - the HP Roar Mini Wireless Speaker. Exceptional size-defying audio while streaming music and calls from a distinctively compact speaker.","productStatus":"Active","managedImageId":"4600"},{"id":25,"productName":"Bose SoundLink Wireless Speaker","price":129.0,"description":"If music is your motivation, wait until you hear the SoundLink\xC2\xAE Color Bluetooth speaker. It plays your favorite tunes from your favorite Bluetooth device-out loud in clear, full audio-just about anywhere you want to go. It's small, durable and simple to use. And it comes in a spectrum of colors to match almost any style.","productStatus":"Active","managedImageId":"4700"},{"id":21,"productName":"HP Roar Plus Wireless Speaker","price":169.99,"description":"Showcase your music anywhere with the ease of wireless Bluetooth\xC2\xAE connectivity.","productStatus":"Active","managedImageId":"4300"},{"id":20,"productName":"Bose Soundlink Bluetooth Speaker III","price":269.99,"description":"Meet the speaker that brings your music and friends together-with a style that's all your own. The SoundLink\xC2\xAE Bluetooth speaker III is our best-performing mobile Bluetooth speaker. It plays louder and longer than its popular predecessor, with advanced Bose\xC2\xAE technologies that reproduce the fullness, clarity and depth of your music. And a colorful assortment of optional covers let you personalize your speaker.","productStatus":"Active","managedImageId":"4200"},{"id":22,"productName":"HP Roar Wireless Speaker","price":84.99,"description":"Showcase your music anywhere with the ease of wireless Bluetooth\xC2\xAE connectivity.","productStatus":"Active","managedImageId":"4400"},{"id":19,"productName":"HP S9500 Bluetooth Wireless Speaker","price":200.0,"description":"Impress \xE2\x80\xA6 everyone! Futuristic design with perforated steel formed into subtle angles. Requiring only minimal space, this speaker is the ideal complement to any setting.","productStatus":"Active","managedImageId":"4100"}]},{"categoryId":5,"categoryName":"MICE","managedImageId":"mice","products":[{"id":31,"productName":"Logitech G502 Proteus Core","price":79.99,"description":"MAKE IT YOURS!\\nProteus Core perfectly tuned by you.\\nProteus Core allows you to change the weight, balance, and enables you to adapt to wherever you choose to play. Customize it to the way you game and make it yours!\\n\\nPERSONALLY-TUNED PERFORMANCE\\nAdapts to your environment\\nFine tune the optical sensor in Proteus Core to your playing surface for better accuracy, precision and responsiveness. A quick tuning process, and you are battle ready.","productStatus":"Active","managedImageId":"5600"},{"id":33,"productName":"HP Z8000 Bluetooth Mouse","price":50.99,"description":"The exquisite HP Z8000 Bluetooth Mouse is only 18mm (.7in) height, saves power with Bluetooth\xC2\xAE Low Energy connectivity, and provides effortless capacitive touch control. The future is here.","productStatus":"Active","managedImageId":"5800"},{"id":28,"productName":"HP Z3200 Wireless Mouse","price":29.99,"description":"The HP Wireless Mouse Z3200 provides powerful Blue LED optical tracking. Its ambidextrous shape and familiar button controls are easy to use. Compact contoured control.","productStatus":"Active","managedImageId":"5300"},{"id":30,"productName":"HP Z4000 Wireless Mouse","price":9.99,"description":"The sleek and low-profiled design make the Z4000 the must-have companion to every thin notebook or tablet. Style and comfort within a dynamic ultra-mobile wireless mouse.","productStatus":"Active","managedImageId":"5505"},{"id":34,"productName":"Microsoft Sculpt Touch Mouse","price":49.99,"description":"Looking for a portable mouse that helps you get things done? Sculpt Touch Mouse saves time in long documents and works virtually anywhere, with no cables or transceivers to connect. And it's designed to fit comfortably in either hand.\\nThe four-way touch scrolling pad on the Sculpt Touch Mouse lets you breeze up and down, left and right, and through windows and documents with just the swipe of your finger. While you scroll, you'll feel the nice surprise of tactile feedback. Sculpt Touch Mouse is also a powerful complement to Windows 8, navigating fluidly and intuitively around the Start Screen.\\n","productStatus":"Active","managedImageId":"5900"},{"id":26,"productName":"Kensington Orbit 72352 Trackball","price":59.99,"description":"The Kensington Orbit Wireless Mobile Trackball offers a precise, compact and versatile experience with a centered-ball design. With no wires to tie you down, the 2.4 GHz wireless with storable nano receiver works wherever you do -- at your home or office. And the unique touch scrolling lets you glide effortlessly through web pages and documents.","productStatus":"Active","managedImageId":"5100"},{"id":29,"productName":"HP USB 3 Button Optical Mouse","price":9.99,"description":"Smooth and Accurate - The HP USB 3-Button Optical Mouse is the affordable desktop optical mouse solution that combines functionality with style","productStatus":"Active","managedImageId":"5400"},{"id":32,"productName":"Kensington Orbit 72337 Trackball with Scroll Ring","price":39.99,"description":"All-day comfort and scrolling come together in the Kensington Orbit Trackball with Scroll Ring. The scroll ring allows you to fly through web pages and documents. And all while delivering comfort and space savings no mouse can match.","productStatus":"Active","managedImageId":"5700"},{"id":27,"productName":"HP Z3600 Wireless Mouse","price":15.99,"description":"The tiny HP Wireless Mouse Z3600 provides stylish comfort and control for your mobile computing needs. With optical tracking, 3 button controls, and the freedom to connect up to 30ft (10m) away, this compact mouse provides oversized performance.","productStatus":"Active","managedImageId":"5200"}]}]
+$$$$$$ Response Body For Transaction With Id 85 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/accountservice/ws/GetAccountConfigurationRequest
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 85 ****** (Location Flag : tFlagInsertEnd, Location ID : 85)
+	web_url("categories",
+		"URL=https://www.advantageonlineshopping.com/catalog/api/v1/categories",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 85 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 77)
+	web_add_header("Origin",
+		"https://www.advantageonlineshopping.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 77)
+	web_add_header("SOAPAction",
+		"com.advantage.online.store.accountserviceGetAccountConfigurationRequest");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 77)
+	web_add_header("X-Requested-With",
+		"XMLHttpRequest");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 87 ******
+GET /catalog/api/v1/deals/search?dealOfTheDay=true HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1
+
+
+$$$$$$ Request Header For Transaction With Id 87 Ended $$$$$$
+
+****** Response Header For Transaction With Id 87 ******
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:37 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-store
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+vary: accept-encoding
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 87 Ended $$$$$$
+
+****** Response Body For Transaction With Id 87 ******
+[{"id":1,"dealType":10,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","promotionHeader":"EXPLORE THE NEW DESIGN","promotionSubHeader":"Supremely thin, yet incredibly durable","staringPrice":"650","discount":0.0,"product":{"id":3,"productName":"HP Pavilion 15z Touch Laptop","price":449.99,"description":"Redesigned with you in mind, the HP Pavilion keeps getting better. Our best-selling notebook is now more powerful so you can watch more, play more, and store more, all in style.","productStatus":"Active","managedImageId":"1300"}}]
+$$$$$$ Response Body For Transaction With Id 87 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/catalog/api/v1/categories
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 87 ****** (Location Flag : tFlagInsertEnd, Location ID : 87)
+	web_url("search",
+		"URL=https://www.advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t5.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 87 Ended $$$$$$
+
+****** Request Header For Transaction With Id 89 ******
+GET /app/tempFiles/popularProducts.json HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1
+If-None-Match: W/"2323-1641810512000"
+If-Modified-Since: Mon, 10 Jan 2022 10:28:32 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 89 Ended $$$$$$
+
+****** Response Header For Transaction With Id 89 ******
+HTTP/1.1 304 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:38 GMT
+Connection: keep-alive
+ETag: W/"2323-1641810512000"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 89 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/catalog/api/v1/deals/search?dealOfTheDay=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 36 ******
+	web_url("www.advantageonlineshopping.com",
+		"URL=https://www.advantageonlineshopping.com/",
+		"Resource=0",
+		"Referer=",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=/vendor/requirejs/require.js", ENDITEM,
+		"Url=/main.min.js", ENDITEM,
+		"Url=/services.properties", ENDITEM,
+		"Url=/app/tempFiles/popularProducts.json", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 36 Ended $$$$$$
+
+****** Request Header For Transaction With Id 91 ******
+GET /app/views/home-page.html HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Accept: text/html
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1
+If-None-Match: W/"12463-1641810512000"
+If-Modified-Since: Mon, 10 Jan 2022 10:28:32 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 91 Ended $$$$$$
+
+****** Response Header For Transaction With Id 91 ******
+HTTP/1.1 304 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:38 GMT
+Connection: keep-alive
+ETag: W/"12463-1641810512000"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 91 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/catalog/api/v1/deals/search?dealOfTheDay=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 91 ****** (Location Flag : tFlagInsertEnd, Location ID : 91)
+	web_url("home-page.html",
+		"URL=https://www.advantageonlineshopping.com/app/views/home-page.html",
+		"Resource=0",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t6.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 91 Ended $$$$$$
+
+****** Request Header For Transaction With Id 93 ******
+GET /css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Origin: https://www.advantageonlineshopping.com
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: https://www.advantageonlineshopping.com/css/main.min.css
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1
+If-None-Match: W/"24808-1641810512000"
+If-Modified-Since: Mon, 10 Jan 2022 10:28:32 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 93 Ended $$$$$$
+
+****** Response Header For Transaction With Id 93 ******
+HTTP/1.1 304 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:38 GMT
+Connection: keep-alive
+ETag: W/"24808-1641810512000"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 93 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/app/views/home-page.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 91 ******
+	web_url("home-page.html",
+		"URL=https://www.advantageonlineshopping.com/app/views/home-page.html",
+		"Resource=0",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t6.inf",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff", "Referer=https://www.advantageonlineshopping.com/css/main.min.css", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 91 Ended $$$$$$
+
+****** Request Header For Transaction With Id 95 ******
+GET /css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Origin: https://www.advantageonlineshopping.com
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: https://www.advantageonlineshopping.com/css/main.min.css
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1
+If-None-Match: W/"24944-1641810512000"
+If-Modified-Since: Mon, 10 Jan 2022 10:28:32 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 95 Ended $$$$$$
+
+****** Response Header For Transaction With Id 95 ******
+HTTP/1.1 304 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:11:38 GMT
+Connection: keep-alive
+ETag: W/"24944-1641810512000"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 95 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/app/views/home-page.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 91 ******
+	web_url("home-page.html",
+		"URL=https://www.advantageonlineshopping.com/app/views/home-page.html",
+		"Resource=0",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t6.inf",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff", "Referer=https://www.advantageonlineshopping.com/css/main.min.css", ENDITEM,
+		"Url=/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff", "Referer=https://www.advantageonlineshopping.com/css/main.min.css", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 91 Ended $$$$$$
+
+****** Request Header For Transaction With Id 97 ******
+POST /accountservice/ws/AccountLoginRequest HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+Content-Length: 420
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Accept: application/xml, text/xml, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+SOAPAction: com.advantage.online.store.accountserviceAccountLoginRequest
+sec-ch-ua-platform: "Windows"
+Origin: https://www.advantageonlineshopping.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1
+
+
+$$$$$$ Request Header For Transaction With Id 97 Ended $$$$$$
+
+****** Request Body For Transaction With Id 97 ******
+<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AccountLoginRequest xmlns="com.advantage.online.store.accountservice"><email></email><loginPassword>POPOp4</loginPassword><loginUser>VITLi2</loginUser></AccountLoginRequest></soap:Body></soap:Envelope>
+$$$$$$ Request Body For Transaction With Id 97 Ended $$$$$$
+
+****** Response Header For Transaction With Id 97 ******
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:12:17 GMT
+Content-Type: text/xml;charset=utf-8
+Content-Length: 416
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-store
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Origin: *
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+SOAPAction: ""
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 97 Ended $$$$$$
+
+****** Response Body For Transaction With Id 97 ******
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:AccountLoginResponse xmlns:ns2="com.advantage.online.store.accountservice"><ns2:StatusMessage><ns2:success>false</ns2:success><ns2:userId>757042392</ns2:userId><ns2:reason>Incorrect user name or password.</ns2:reason></ns2:StatusMessage></ns2:AccountLoginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+$$$$$$ Response Body For Transaction With Id 97 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/app/views/home-page.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 97 ****** (Location Flag : tFlagInsertEnd, Location ID : 97)
+	web_custom_request("AccountLoginRequest",
+		"URL=https://www.advantageonlineshopping.com/accountservice/ws/AccountLoginRequest",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/xml",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t7.inf",
+		"Mode=HTML",
+		"EncType=text/xml; charset=UTF-8",
+		"Body=<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><AccountLoginRequest xmlns=\"com.advantage.online.store.accountservice\"><email></email><loginPassword>POPOp4</loginPassword><loginUser>VITLi2</loginUser></AccountLoginRequest></soap:Body></soap:Envelope>",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 97 Ended $$$$$$
+
+****** Request Header For Transaction With Id 99 ******
+POST /accountservice/ws/AccountLoginRequest HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+Content-Length: 420
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Accept: application/xml, text/xml, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+SOAPAction: com.advantage.online.store.accountserviceAccountLoginRequest
+sec-ch-ua-platform: "Windows"
+Origin: https://www.advantageonlineshopping.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1
+
+
+$$$$$$ Request Header For Transaction With Id 99 Ended $$$$$$
+
+****** Request Body For Transaction With Id 99 ******
+<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AccountLoginRequest xmlns="com.advantage.online.store.accountservice"><email></email><loginPassword>POPOp4</loginPassword><loginUser>VITLi2</loginUser></AccountLoginRequest></soap:Body></soap:Envelope>
+$$$$$$ Request Body For Transaction With Id 99 Ended $$$$$$
+
+****** Response Header For Transaction With Id 99 ******
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:12:26 GMT
+Content-Type: text/xml;charset=utf-8
+Content-Length: 416
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-store
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Origin: *
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+SOAPAction: ""
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 99 Ended $$$$$$
+
+****** Response Body For Transaction With Id 99 ******
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:AccountLoginResponse xmlns:ns2="com.advantage.online.store.accountservice"><ns2:StatusMessage><ns2:success>false</ns2:success><ns2:userId>757042392</ns2:userId><ns2:reason>Incorrect user name or password.</ns2:reason></ns2:StatusMessage></ns2:AccountLoginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+$$$$$$ Response Body For Transaction With Id 99 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/accountservice/ws/AccountLoginRequest
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 99 ****** (Location Flag : tFlagInsertEnd, Location ID : 99)
+	web_custom_request("AccountLoginRequest_2",
+		"URL=https://www.advantageonlineshopping.com/accountservice/ws/AccountLoginRequest",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/xml",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t8.inf",
+		"Mode=HTML",
+		"EncType=text/xml; charset=UTF-8",
+		"Body=<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><AccountLoginRequest xmlns=\"com.advantage.online.store.accountservice\"><email></email><loginPassword>POPOp4</loginPassword><loginUser>VITLi2</loginUser></AccountLoginRequest></soap:Body></soap:Envelope>",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 99 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 97)
+	web_add_auto_header("Origin",
+		"https://www.advantageonlineshopping.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 97)
+	web_add_auto_header("SOAPAction",
+		"com.advantage.online.store.accountserviceAccountLoginRequest");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 97)
+	web_add_auto_header("X-Requested-With",
+		"XMLHttpRequest");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+[Traffic Filtering] Filtering clients4.google.com
+****** Request Header For Transaction With Id 108 ******
+POST /ukm HTTP/1.1
+Host: clients4.google.com
+Connection: keep-alive
+Content-Length: 11488
+X-Chrome-UMA-Log-SHA1: D1DCEC9CDCA7313AE203C02D7C0D8D7730CF1AAB
+X-Chrome-UMA-Log-HMAC-SHA256: sy5kkPNlOfgSNxJnftQ8Y/0qGE4V34lHqiXf4sNoEZ4=
+X-Chrome-UMA-ReportingInfo: CAE=
+content-encoding: gzip
+Content-Type: application/vnd.chrome.ukm
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
+
+$$$$$$ Request Header For Transaction With Id 108 Ended $$$$$$
+
+****** Request Body For Transaction With Id 108 ******
+	Y\xB2\x11\x08\xD4\xE9;\xE1\x12\xD3\x17\x08\xBC\xC7\x89\xA3\x06\x12\x11113.0.5672.127-64"\x02ru*\x18
+
+Windows NT\x12
+10.0.190452\xE2\x01
+\x06x86_64\x10\xC6?\x18\x80\x80\xE8\xE2\xC8\xFF\x1F"
+All Series(\x010\x80\x0F8\xB8\x08B\x85\x01\x08\xDE!\x10\x829\x1A27.21.14.57512\x14Google Inc. (NVIDIA):XANGLE (NVIDIA, NVIDIA GeForce GTX 1050 Ti Direct3D11 vs_5_0 ps_5_0, D3D11-27.21.14.5751)M{`\xA3BU%I\xA3Be\x00\x00\x80?j\x16
+\x0CGenuineIntel\x10\xC3\x8D\x0C\x18\x04 \x00\xAA\x01\x06x86_64\xB0\x01\x01J
+\xE1\x01w0\x15u\xB2\x11iJ
+)\x0F\xABb\x15u\xB2\x11iJ
+\x06\xBB\xC9I\x15\x97\xF5V\xDDJ
+\x19\x1A\xF7]\x15u\xB2\x11iJ
+\xBCv\xA4\xCC\x15\x97\xF5V\xDDJ
+*I\xB9O\x15|\xC5\xD4\xC6J
+1\x9F\xD1j\x15u\xB2\x11iJ
++J\xE5\xCA\x15u\xB2\x11iJ
+\xA6XW$\x15\x97\xF5V\xDDJ
+\xA6\xD8\x19x\x15u\xB2\x11iJ
+ xU\x9A\x15u\xB2\x11iJ
+Ax\x9F
+\x15\x11|n\xB4J
+V\xB5*#\x15u\xB2\x11iJ
+:\x0B\xA9U\x15u\xB2\x11iJ
+\x9EzxH\x15u\xB2\x11iJ
+\xAB\xB7\xDEL\x15\xAF\xA3\xC8CJ
+\x85\x1A\x1F&\x15g\xE6\xE7\xB1J
+;[\xC7\x94\x15u\xB2\x11iJ
+8\xDC\x1B(\x15u\xB2\x11iJ
+\x04l\xDB\xC5\x15\xDE\x18&\x16J
+S1\xEF\xFF\x15u\xB2\x11iJ
+B\xEC\xB1T\x15\x07K7#J
+\xA5b\xF0	\x15u\xB2\x11iJ
+r\xFEn\xB7\x15u\xB2\x11iJ
+\xCA\x8F\xFD\xC7\x15\xEC\x94\x84\xFEJ
+C\x8C\x15\x15\x15\x11\x0BnnJ
+\xEC\x98O\x83\x15\xF8\xBB\xDF\xC6J
+\x92<\xE5\xFF\x15\xCFF\xF3HJ
+\x1En`\xEE\x15\x0C\xD7\x95tJ
+[\xAB\x94\x1A\x15u\xB2\x11iJ
+\x96\xBB\x96\xD9\x15\x97\xF5V\xDDJ
+2{\x0C&\x15u\xB2\x11iJ
+\xB61\xA8E\x15\x97\xF5V\xDDJ
+
+":\xD0\x15u\xB2\x11iJ
+\xEB\x9C\x13\x98\x15u\xB2\x11iJ
+\x93(\xA5\x86\x15\x97\xF5V\xDDJ
+SV\x8F.\x155\x0B\xAFXJ
+\xE5\x1F\x90\x86\x15|\xC5\xD4\xC6J
+\xD9\xE4~`\x15\x11\x0BnnJ
+	\xB0\x99\xBA\x15\xD3"khJ
+'\x91\xAD\xAD\x15u\xB2\x11iJ
+\xCA\xA9f\x17\x15\x97\xF5V\xDDJ
+\xF4\xD13\x01\x15u\xB2\x11iJ
+\xF9\x8C\xC4\xE6\x15\xEEA\x01XJ
+n9:^\x15B\x9C5\xADJ
+\x91Omr\x15u\xB2\x11iJ
+K\xA6a\x95\x15\x97\xF5V\xDDJ
+#2\xB8\xF6\x15u\xB2\x11iJ
+"\x18\x1Cx\x15u\xB2\x11iJ
+\xD0@A\x12\x15u\xB2\x11iJ
+\x82\xCB\xB0\xF1\x15u\xB2\x11iJ
+z\xF9*\x92\x15\x97\xF5V\xDDJ
+\xCF^&\x0B\x15\x03\x99\x80MJ
+ox\xC0\xA1\x15jJ\x01QJ
+V\x0C\xCD;\x15u\xB2\x11iJ
+\xF8\xF3\xD2\x96\x15u\xB2\x11iJ
+S\x1E\x00\\\x15u\xB2\x11iJ
+\x11\xDD\x19\xAF\x15u\xB2\x11iJ
+\x0F\xD7\xD46\x15u\xB2\x11iJ
+\xE7\xF4\xC8\xFF\x15\x97\xF5V\xDDJ
+\x16\xD6\xCF\x88\x15
+$$$$$$ Request Body For Transaction With Id 108 Ended $$$$$$
+
+****** Response Header For Transaction With Id 108 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Date: Tue, 23 May 2023 09:12:28 GMT
+Server: uma-collector
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 108 Ended $$$$$$
+
+****** Response Body For Transaction With Id 108 ******
+OK
+$$$$$$ Response Body For Transaction With Id 108 Ended $$$$$$
+
+****** Request Header For Transaction With Id 112 ******
+POST /accountservice/ws/AccountLoginRequest HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+Content-Length: 420
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Accept: application/xml, text/xml, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+SOAPAction: com.advantage.online.store.accountserviceAccountLoginRequest
+sec-ch-ua-platform: "Windows"
+Origin: https://www.advantageonlineshopping.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1
+
+
+$$$$$$ Request Header For Transaction With Id 112 Ended $$$$$$
+
+****** Request Body For Transaction With Id 112 ******
+<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AccountLoginRequest xmlns="com.advantage.online.store.accountservice"><email></email><loginPassword>POPOp4</loginPassword><loginUser>VITLi2</loginUser></AccountLoginRequest></soap:Body></soap:Envelope>
+$$$$$$ Request Body For Transaction With Id 112 Ended $$$$$$
+
+****** Response Header For Transaction With Id 112 ******
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:12:28 GMT
+Content-Type: text/xml;charset=utf-8
+Content-Length: 416
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-store
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Origin: *
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+SOAPAction: ""
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 112 Ended $$$$$$
+
+****** Response Body For Transaction With Id 112 ******
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:AccountLoginResponse xmlns:ns2="com.advantage.online.store.accountservice"><ns2:StatusMessage><ns2:success>false</ns2:success><ns2:userId>757042392</ns2:userId><ns2:reason>Incorrect user name or password.</ns2:reason></ns2:StatusMessage></ns2:AccountLoginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+$$$$$$ Response Body For Transaction With Id 112 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/accountservice/ws/AccountLoginRequest
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 112 ****** (Location Flag : tFlagInsertEnd, Location ID : 112)
+	web_custom_request("AccountLoginRequest_3",
+		"URL=https://www.advantageonlineshopping.com/accountservice/ws/AccountLoginRequest",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/xml",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t9.inf",
+		"Mode=HTML",
+		"EncType=text/xml; charset=UTF-8",
+		"Body=<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><AccountLoginRequest xmlns=\"com.advantage.online.store.accountservice\"><email></email><loginPassword>POPOp4</loginPassword><loginUser>VITLi2</loginUser></AccountLoginRequest></soap:Body></soap:Envelope>",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 112 Ended $$$$$$
+
+[Traffic Filtering] Filtering update.googleapis.com
+****** Request Header For Transaction With Id 114 ******
+POST /service/update2/json?cup2key=13:y-YnzC6VrQ4XfR4G2W_2hGARbgqOlLV3Ue5q4ZPAmEw&cup2hreq=94ee426ad04d1ea0f779658d6bbaac14f30def158520a2677be5168517b487e5 HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 8439
+X-Goog-Update-AppId: ihnlcenocehgdaegdmhbidjhnhdchfmm,neifaoindggfcjicffkgpmnlppeffabd,oimompecagnajdejgnnjijobebaeigek,hnimpnehoodheedghdeeijklkeaacbdc,gcmjkmgdlgnkkcocmoeiminaijmmjnii,obedbbhbpmojnkanicioggnmelmoomoc,lmelglejhemejginpboagddgdfbepgmp,giekcmmlnklenlaomppkphknjmnnpneh,khaoiebndkojlmppeemjhbpbandiljpe,hfnkpimlhhgieaddgfemjhofmfblmnib,llkgjffcdpffmhiakmfcdcblohccpfmo,laoigpblnllgcgjnjnllmfolckpjlhki,ehgidpndbllacpjalkiimkbadgjfnnmc,efniojlnjndmcbiieegkicadnoecjjef,jflookgnkcckhobaglndicnbbgbonegd,ggkkehgbnfjpeggfpleeakpidbkibbmn,jamhcnnkihinmdlkakkaopbjbbcngflc,ojhpjlocmbogdgmfpkhlaaeamibhnphh,imefjhfbkmcmebodilednhmaccmincoa,eeigpngbgcognadeebkilcpcaedhellh,gonpemdgkjcecdgbnaabipppbmgfggbe
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-Updater: chrome-113.0.5672.127
+Content-Type: application/json
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 114 Ended $$$$$$
+
+****** Request Body For Transaction With Id 114 ******
+{"request":{"@os":"win","@updater":"chrome","acceptformat":"crx3","app":[{"appid":"ihnlcenocehgdaegdmhbidjhnhdchfmm","brand":"CHZO","cohort":"1::","cohorthint":"Win (Including up-to-date)","enabled":true,"lang":"ru","packages":{"package":[{"fp":"1.aeedb246d19256a956fedaa89fb62423ae5bd8855a2a1f3189161cf045645a19"}]},"ping":{"ping_freshness":"{eb9bf2d7-1182-4b9d-bc50-691dcb002c08}","rd":5986},"updatecheck":{},"version":"1.3.36.141"},{"appid":"neifaoindggfcjicffkgpmnlppeffabd","brand":"CHZO","cohort":"1:1299:","cohorthint":"Windows (102+, canary/dev/beta/stable)","cohortname":"Windows (102+, canary/dev/beta/stable)","enabled":true,"lang":"ru","packages":{"package":[{"fp":"1.faef821457e35b44f92e45ae9c7c4424eb39c8f8bd02562a358bd2c5542570b9"}]},"ping":{"ping_freshness":"{80d5b41c-2c36-4816-b14e-b7411aaa3c4e}","rd":5986},"updatecheck":{},"version":"1.0.2512.0"},{"appid":"oimompecagnajdejgnnjijobebaeigek","brand":"CHZO","cohort":"1:1n4r:","cohorthint":"4.10.2557.0 for Chrome 95+","cohortname":"4.10.2652.1 for 113+","
+$$$$$$ Request Body For Transaction With Id 114 Ended $$$$$$
+
+****** Response Header For Transaction With Id 114 ******
+HTTP/1.1 200 OK
+Content-Security-Policy: script-src 'report-sample' 'nonce-KHb3HkNuu8k2DDcqSETMhw' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Tue, 23 May 2023 09:12:28 GMT
+X-Cup-Server-Proof: 304502202223ca461e48d0216c89b9d725f70c00b76350520bf21139f0bc8986ceee15ee022100d75d34a7358d4dbc46184582d7494098580d349007a372fa3c08f6d45b441e92:94ee426ad04d1ea0f779658d6bbaac14f30def158520a2677be5168517b487e5
+ETag: W/"304502202223ca461e48d0216c89b9d725f70c00b76350520bf21139f0bc8986ceee15ee022100d75d34a7358d4dbc46184582d7494098580d349007a372fa3c08f6d45b441e92:94ee426ad04d1ea0f779658d6bbaac14f30def158520a2677be5168517b487e5"
+Content-Type: application/json; charset=utf-8
+X-Daynum: 5986
+X-Daystart: 7948
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 1011
+Server: GSE
+
+
+$$$$$$ Response Header For Transaction With Id 114 Ended $$$$$$
+
+****** Response Body For Transaction With Id 114 ******
+)]}'
+{"response":{"server":"prod","protocol":"3.1","daystart":{"elapsed_seconds":7948,"elapsed_days":5986},"app":[{"cohorthint":"Win (Including up-to-date)","appid":"ihnlcenocehgdaegdmhbidjhnhdchfmm","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Windows (102+, canary/dev/beta/stable)","appid":"neifaoindggfcjicffkgpmnlppeffabd","cohort":"1:1299:","status":"ok","cohortname":"Windows (102+, canary/dev/beta/stable)","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"4.10.2557.0 for Chrome 95+","appid":"oimompecagnajdejgnnjijobebaeigek","cohort":"1:1n4r:","status":"ok","cohortname":"4.10.2652.1 for 113+","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"hnimpnehoodheedghdeeijklkeaacbdc","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"_esbAllowlist":"true","status":"noupdate"}},{"cohorthint":"M54AndUp","appid":"gcmjkmgdlgnkkcocmoeiminaijmmjnii","cohort":"1:bm1:1opr@0.01","status":"ok","cohortname":"M54AndUp","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"obedbbhbpmojnkanicioggnmelmoomoc","cohort":"1:s6f:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"lmelglejhemejginpboagddgdfbepgmp","cohort":"1:lwl:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"giekcmmlnklenlaomppkphknjmnnpneh","cohort":"1:j5l:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"khaoiebndkojlmppeemjhbpbandiljpe","cohort":"1:cux:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"hfnkpimlhhgieaddgfemjhofmfblmnib","cohort":"1:jcl:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"llkgjffcdpffmhiakmfcdcblohccpfmo","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"_esbAllowlist":"true","status":"noupdate"}},{"cohorthint":"Auto","appid":"laoigpblnllgcgjnjnllmfolckpjlhki","cohort":"1:10zr:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"stable64","appid":"ehgidpndbllacpjalkiimkbadgjfnnmc","cohort":"1:ofl:","status":"ok","cohortname":"stable64","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto Stage3","appid":"efniojlnjndmcbiieegkicadnoecjjef","cohort":"1:18ql:","status":"ok","cohortname":"Auto Stage3","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"jflookgnkcckhobaglndicnbbgbonegd","cohort":"1:s7x:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"108-and-above-all-users","appid":"ggkkehgbnfjpeggfpleeakpidbkibbmn","cohort":"1:ut9/1a0f:","status":"ok","cohortname":"108-and-above-all-users","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"jamhcnnkihinmdlkakkaopbjbbcngflc","cohort":"1:wvr:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"ojhpjlocmbogdgmfpkhlaaeamibhnphh","cohort":"1:w0x:","status":"ok","cohortname":"All users","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"desktop_1_flatbuffer","appid":"imefjhfbkmcmebodilednhmaccmincoa","cohort":"1:1iaf:","status":"ok","cohortname":"windows_flatbuffers","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"eeigpngbgcognadeebkilcpcaedhellh","cohort":"1:w59:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"General release","appid":"gonpemdgkjcecdgbnaabipppbmgfggbe","cohort":"1:z1x:","status":"ok","cohortname":"General release","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}}]}}
+$$$$$$ Response Body For Transaction With Id 114 Ended $$$$$$
+
+****** Request Header For Transaction With Id 121 ******
+POST /accountservice/ws/AccountLoginRequest HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+Content-Length: 420
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Accept: application/xml, text/xml, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+SOAPAction: com.advantage.online.store.accountserviceAccountLoginRequest
+sec-ch-ua-platform: "Windows"
+Origin: https://www.advantageonlineshopping.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D
+
+
+$$$$$$ Request Header For Transaction With Id 121 Ended $$$$$$
+
+****** Request Body For Transaction With Id 121 ******
+<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AccountLoginRequest xmlns="com.advantage.online.store.accountservice"><email></email><loginPassword>POPOp3</loginPassword><loginUser>VITLi1</loginUser></AccountLoginRequest></soap:Body></soap:Envelope>
+$$$$$$ Request Body For Transaction With Id 121 Ended $$$$$$
+
+****** Response Header For Transaction With Id 121 ******
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:12:54 GMT
+Content-Type: text/xml;charset=utf-8
+Content-Length: 787
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-store
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Origin: *
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+SOAPAction: ""
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 121 Ended $$$$$$
+
+****** Response Body For Transaction With Id 121 ******
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:AccountLoginResponse xmlns:ns2="com.advantage.online.store.accountservice"><ns2:StatusMessage><ns2:success>true</ns2:success><ns2:userId>786498735</ns2:userId><ns2:reason>Login Successful</ns2:reason><ns2:token>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3d3cuYWR2YW50YWdlb25saW5lc2hvcHBpbmcuY29tIiwidXNlcklkIjo3ODY0OTg3MzUsInN1YiI6IlZJVExpMSIsInJvbGUiOiJVU0VSIn0.7YqlO2PUifFAcdqn3aTmt8QBq3QFzN3PQov3vmvoWhs</ns2:token><ns2:sessionId>18847e20462@7E75179C36^i%786498735</ns2:sessionId><ns2:t_authorization>VklUTGkxOlBPUE9wMw==</ns2:t_authorization><ns2:accountType>20</ns2:accountType></ns2:StatusMessage></ns2:AccountLoginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+$$$$$$ Response Body For Transaction With Id 121 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/accountservice/ws/AccountLoginRequest
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 121 ****** (Location Flag : tFlagInsertEnd, Location ID : 121)
+	web_custom_request("AccountLoginRequest_4",
+		"URL=https://www.advantageonlineshopping.com/accountservice/ws/AccountLoginRequest",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/xml",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t10.inf",
+		"Mode=HTML",
+		"EncType=text/xml; charset=UTF-8",
+		"Body=<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><AccountLoginRequest xmlns=\"com.advantage.online.store.accountservice\"><email></email><loginPassword>POPOp3</loginPassword><loginUser>VITLi1</loginUser></AccountLoginRequest></soap:Body></soap:Envelope>",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 121 Ended $$$$$$
+
+****** Request Header For Transaction With Id 123 ******
+GET /order/api/v1/carts/786498735 HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Basic VklUTGkxOlBPUE9wMw==
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1
+
+
+$$$$$$ Request Header For Transaction With Id 123 Ended $$$$$$
+
+****** Response Header For Transaction With Id 123 ******
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:12:54 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-control: no-store
+Set-Cookie: JSESSIONID=6159FC8E7FA4A2860F865142F9931D3F; Path=/order; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+vary: accept-encoding
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 123 Ended $$$$$$
+
+****** Response Body For Transaction With Id 123 ******
+{"userId":786498735,"productsInCart":[],"sessionId":"6159FC8E7FA4A2860F865142F9931D3F"}
+$$$$$$ Response Body For Transaction With Id 123 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/accountservice/ws/AccountLoginRequest
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 123 ****** (Location Flag : tFlagInsertEnd, Location ID : 123)
+	web_url("786498735",
+		"URL=https://www.advantageonlineshopping.com/order/api/v1/carts/786498735",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t11.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 123 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 123)
+	web_revert_auto_header("Origin");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 123)
+	web_revert_auto_header("SOAPAction");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 123)
+	web_revert_auto_header("X-Requested-With");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 130 ******
+POST /accountservice/ws/AccountLogoutRequest HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+Content-Length: 426
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Accept: application/xml, text/xml, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+SOAPAction: com.advantage.online.store.accountserviceAccountLogoutRequest
+sec-ch-ua-platform: "Windows"
+Origin: https://www.advantageonlineshopping.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.518137378.1684742610; _gid=GA1.2.1778135003.1684742610; _gat=1
+
+
+$$$$$$ Request Header For Transaction With Id 130 Ended $$$$$$
+
+****** Request Body For Transaction With Id 130 ******
+<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AccountLogoutRequest xmlns="com.advantage.online.store.accountservice"><loginUser>786498735</loginUser><base64Token>Basic VklUTGkxOlBPUE9wMw==</base64Token></AccountLogoutRequest></soap:Body></soap:Envelope>
+$$$$$$ Request Body For Transaction With Id 130 Ended $$$$$$
+
+****** Response Header For Transaction With Id 130 ******
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 23 May 2023 09:13:06 GMT
+Content-Type: text/xml;charset=utf-8
+Content-Length: 402
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-store
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Origin: *
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+SOAPAction: ""
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 130 Ended $$$$$$
+
+****** Response Body For Transaction With Id 130 ******
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:AccountLogoutResponse xmlns:ns2="com.advantage.online.store.accountservice"><ns2:StatusMessage><ns2:success>true</ns2:success><ns2:userId>786498735</ns2:userId><ns2:reason>Logout Successful</ns2:reason></ns2:StatusMessage></ns2:AccountLogoutResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+$$$$$$ Response Body For Transaction With Id 130 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/order/api/v1/carts/786498735
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 130 ****** (Location Flag : tFlagInsertEnd, Location ID : 130)
+	web_custom_request("AccountLogoutRequest",
+		"URL=https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/xml",
+		"Referer=https://www.advantageonlineshopping.com/",
+		"Snapshot=t12.inf",
+		"Mode=HTML",
+		"EncType=text/xml; charset=UTF-8",
+		"Body=<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><AccountLogoutRequest xmlns=\"com.advantage.online.store.accountservice\"><loginUser>786498735</loginUser><base64Token>Basic VklUTGkxOlBPUE9wMw==</base64Token></AccountLogoutRequest></soap:Body></soap:Envelope>",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 130 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 130)
+	web_add_header("Origin",
+		"https://www.advantageonlineshopping.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 130)
+	web_add_header("SOAPAction",
+		"com.advantage.online.store.accountserviceAccountLogoutRequest");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 130)
+	web_add_header("X-Requested-With",
+		"XMLHttpRequest");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+

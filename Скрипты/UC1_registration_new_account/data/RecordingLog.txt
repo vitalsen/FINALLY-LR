@@ -1,0 +1,199 @@
+[API Trapper      (195c:1ee4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (1734: 3f0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (334c:1ef4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (334c:2544)] ------------------------------------------------------------------------------------------
+[Network Analyzer (334c:2544)] Load Network Traffic Analyzers:
+[Network Analyzer (334c:2544)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (334c:2544)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (334c:2544)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (334c:2544)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (334c:2544)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (334c:2544)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (334c:2544)]     Analyzer Module: local_server (value=)
+[Network Analyzer (334c:2544)] ------------------------------------------------------------------------------------------
+[Network Analyzer (334c:207c)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 216.58.210.163:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 216.58.209.202:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (334c:15dc)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 54.227.55.203:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:3060)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 216.58.209.170:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (334c:15dc)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:3060)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Web Request      (334c:207c)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=113"   
+[Network Analyzer (334c:207c)]   (Sid:  1) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 216.58.209.205:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (334c:207c)]   (Sid:  1) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (334c:1f90)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c:1f90)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:1f64)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (334c:207c)] "GET /"   
+[Network Analyzer (334c:207c)]   (Sid:  3) Client -> Server @ : 926 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 64.233.161.101:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (334c:1f64)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:2674)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c:2674)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:2fa8)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c:2fa8)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:207c)]   (Sid:  3) Server -> Client : 213 bytes (SSL) (Service=HTTP)
+[Web Request      (334c:207c)] "GET /vendor/requirejs/require.js"   
+[Network Analyzer (334c:207c)]   (Sid:  3) Client -> Server @ : 826 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  3) Server -> Client : 213 bytes (SSL) (Service=HTTP)
+[Web Request      (334c:207c)] "GET /main.min.js"   
+[Network Analyzer (334c:207c)]   (Sid:  3) Client -> Server @ : 812 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  3) Server -> Client : 215 bytes (SSL) (Service=HTTP)
+[Web Request      (334c:207c)] "GET /services.properties"   
+[Network Analyzer (334c:207c)]   (Sid:  3) Client -> Server @ : 813 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 216.58.209.174:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (334c:207c)]   (Sid:  3) Server -> Client : 212 bytes (SSL) (Service=HTTP)
+[Network Analyzer (334c: 5d8)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (334c: 5d8)] SSLAccept(ssl_id = 1737182100000 = 00000194781F3A20) Failed, ctx = 00000194780DD270, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (334c: 5d8)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (334c:207c)] "GET /catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL"   
+[Network Analyzer (334c:207c)]   (Sid:  3) Client -> Server @ : 786 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 54.227.55.203:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (334c:207c)]   (Sid:  3) Server -> Client : 6974 bytes (SSL) (Service=HTTP)
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:317c)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 54.227.55.203:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:207c)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 54.227.55.203:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (334c:1198)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (334c:207c)] "GET /css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff"   
+[Network Analyzer (334c:207c)]   (Sid:  3) Client -> Server @ : 920 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:317c)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:1198)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:207c)]   (Sid:  3) Server -> Client : 213 bytes (SSL) (Service=HTTP)
+[Web Request      (334c:207c)] "GET /css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff"   
+[Network Analyzer (334c:207c)]   (Sid:  8) Client -> Server @ : 918 bytes (SSL)(Service=HTTP)
+[Web Request      (334c:207c)] "GET /css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff"   
+[Network Analyzer (334c:207c)]   (Sid:  9) Client -> Server @ : 916 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:1a8c)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 54.227.55.203:443   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (334c:207c)] "POST /accountservice/ws/GetAccountConfigurationRequest"   
+[Network Analyzer (334c:207c)]   (Sid:  3) Client -> Server @ : 1386 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:1a8c)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:207c)]   (Sid:  9) Server -> Client : 213 bytes (SSL) (Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  8) Server -> Client : 213 bytes (SSL) (Service=HTTP)
+[Network Analyzer (334c:2a64)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c:2a64)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:207c)]   (Sid:  3) Server -> Client : 1570 bytes (SSL) (Service=HTTP)
+[Web Request      (334c:207c)] "GET /catalog/api/v1/categories"   
+[Network Analyzer (334c:207c)]   (Sid:  3) Client -> Server @ : 768 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  3) Server -> Client : 4909 bytes (SSL) (Service=HTTP)
+[Web Request      (334c:207c)] "GET /catalog/api/v1/deals/search?dealOfTheDay=true"   
+[Network Analyzer (334c:207c)]   (Sid:  3) Client -> Server @ : 788 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  3) Server -> Client : 783 bytes (SSL) (Service=HTTP)
+[Web Request      (334c:207c)] "GET /app/tempFiles/popularProducts.json"   
+[Network Analyzer (334c:207c)]   (Sid:  3) Client -> Server @ : 866 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  3) Server -> Client : 212 bytes (SSL) (Service=HTTP)
+[Web Request      (334c:207c)] "GET /app/views/home-page.html"   
+[Network Analyzer (334c:207c)]   (Sid:  3) Client -> Server @ : 833 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  3) Server -> Client : 213 bytes (SSL) (Service=HTTP)
+[Web Request      (334c:207c)] "GET /css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff"   
+[Network Analyzer (334c:207c)]   (Sid:  3) Client -> Server @ : 922 bytes (SSL)(Service=HTTP)
+[Web Request      (334c:207c)] "GET /css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff"   
+[Network Analyzer (334c:207c)]   (Sid:  8) Client -> Server @ : 922 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  3) Server -> Client : 213 bytes (SSL) (Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  8) Server -> Client : 213 bytes (SSL) (Service=HTTP)
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 142.251.1.188:5228   (Service=)  (Sid= 12)  PROXIED!
+[API Trapper      (26e0: a60)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (334c: ec8)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c: ec8)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:207c)]   (Sid: 12) Client -> Server @ : 156 bytes (SSL)
+[Network Analyzer (334c:207c)]   (Sid: 12) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (334c:207c)]   (Sid: 12) Server -> Client : 67 bytes (SSL)
+[Network Analyzer (334c:207c)]   (Sid: 12) Server -> Client : 12 bytes (SSL)
+[User action                 ] StartTransactionEvent click_create_new_account [Web Request      (334c:207c)] "GET /app/user/views/register-page.html"   
+[Network Analyzer (334c:207c)]   (Sid:  8) Client -> Server @ : 841 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  8) Server -> Client : 212 bytes (SSL) (Service=HTTP)
+[Web Request      (334c:207c)] "POST /accountservice/ws/GetCountriesRequest"   
+[Network Analyzer (334c:207c)]   (Sid:  8) Client -> Server @ : 1342 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  8) Server -> Client : 4998 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent click_create_new_account [Network Analyzer (334c:207c)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 142.251.1.188:5228   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (334c:3074)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c:3074)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:207c)]   (Sid: 13) Client -> Server @ : 188 bytes (SSL)
+[Network Analyzer (334c:207c)]   (Sid: 13) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (334c:207c)]   (Sid: 13) Server -> Client : 67 bytes (SSL)
+[Network Analyzer (334c:207c)]   (Sid: 13) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 64.233.164.101:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 216.58.210.163:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (334c: 3cc)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c: 3cc)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (334c:207c)] "POST /ukm"
+[Network Analyzer (334c:207c)]   (Sid: 14) Client -> Server @ : 568 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid: 14) Client -> Server @ : 13529 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c: c5c)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c: c5c)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (334c:207c)] "POST /service/update2/json?cup2key=13:encivyx4OWASaUvpUZrAU_q5KYUElLO0KgQl7HWm7HE&cup2hreq=434903ff23b6f0301a6c4901a93c89ab1b72934bbdcba5baebb2ce6779c582e3"
+[Network Analyzer (334c:207c)]   (Sid: 15) Client -> Server @ : 1300 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid: 14) Server -> Client : 423 bytes (SSL) (Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid: 15) Client -> Server @ : 8439 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid: 14) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid: 15) Server -> Client : 1149 bytes (SSL) (Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid: 15) Server -> Client : 1119 bytes (SSL) (Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid: 15) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (334c:207c)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer (334c:207c)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer (334c:207c)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (334c:207c)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 142.251.1.188:5228   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (334c:2ad0)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c:2ad0)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:207c)]   (Sid: 16) Client -> Server @ : 188 bytes (SSL)
+[Network Analyzer (334c:207c)]   (Sid: 16) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (334c:207c)]   (Sid: 16) Server -> Client : 67 bytes (SSL)
+[Network Analyzer (334c:207c)]   (Sid: 16) Server -> Client : 12 bytes (SSL)
+[User action                 ] StartTransactionEvent click_register [Network Analyzer (334c:207c)]   (Sid:  8) Client -> Server @ : 997 bytes (SSL)(Service=HTTP)
+[Web Request      (334c:207c)] "POST /accountservice/ws/AccountCreateRequest"   
+[Network Analyzer (334c:207c)]   (Sid:  8) Client -> Server @ : 747 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  8) Server -> Client : 1162 bytes (SSL) (Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (334c:207c)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (334c:207c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (334c:207c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (334c:207c)]   (Sid:  8) Client -> Server @ : 1003 bytes (SSL)(Service=HTTP)
+[Web Request      (334c:207c)] "POST /accountservice/ws/AccountLoginRequest"   
+[Network Analyzer (334c:207c)]   (Sid:  8) Client -> Server @ : 441 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 216.58.209.205:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (334c:207c)]   (Sid:  8) Server -> Client : 1546 bytes (SSL) (Service=HTTP)
+[Web Request      (334c:207c)] "GET /order/api/v1/carts/162217817"   
+[Network Analyzer (334c:207c)]   (Sid:  8) Client -> Server @ : 822 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c: 364)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c: 364)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:207c)]   (Sid:  8) Server -> Client : 622 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent click_register [User action                 ] StartTransactionEvent logout [Network Analyzer (334c:207c)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (334c:2544)] Address lookup for DESKTOP-A7PJ63F = 192.168.0.11
+[Network Analyzer (334c:2544)] Request Connection: Remote Server @ 142.251.1.188:5228   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (334c:2880)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (334c:2880)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (334c:207c)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (334c:207c)]   (Sid: 18) Client -> Server @ : 188 bytes (SSL)
+[Network Analyzer (334c:207c)]   (Sid: 18) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (334c:207c)]   (Sid: 18) Server -> Client : 67 bytes (SSL)
+[Network Analyzer (334c:207c)]   (Sid: 18) Server -> Client : 12 bytes (SSL)
+[Web Request      (334c:207c)] "POST /accountservice/ws/AccountLogoutRequest"   
+[Network Analyzer (334c:207c)]   (Sid:  8) Client -> Server @ : 1373 bytes (SSL)(Service=HTTP)
+[Network Analyzer (334c:207c)]   (Sid:  8) Server -> Client : 1149 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent logout 

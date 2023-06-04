@@ -1,0 +1,14 @@
+HTTP/2.0 200
+Status: 200
+server: nginx/1.18.0 (Ubuntu)
+date: Mon, 29 May 2023 08:55:29 GMT
+content-type: application/json
+expires: 0
+cache-control: no-store
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: DENY
+vary: accept-encoding
+content-encoding: gzip
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+

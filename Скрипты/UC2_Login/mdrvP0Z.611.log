@@ -1,0 +1,36 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(54): web_remove_auto_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(54): Previous automatically added web header for "SOAPAction" removed  	[MsgId: MMSG-26587]
+Action.c(54): web_remove/revert_auto_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(56): web_remove_auto_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(56): Previous automatically added web header for "X-Requested-With" removed  	[MsgId: MMSG-26587]
+Action.c(56): web_remove/revert_auto_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(58): web_url("{userId}") started  	[MsgId: MMSG-26355]
+Action.c(58): web_url("{userId}") was successful, 110 body bytes, 455 header bytes  	[MsgId: MMSG-26386]
+Action.c(67): Error: Failed to end Transaction "sign_in" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(54): web_remove_auto_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(54): Previous automatically added web header for "SOAPAction" removed  	[MsgId: MMSG-26587]
+Action.c(54): web_remove/revert_auto_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(56): web_remove_auto_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(56): Previous automatically added web header for "X-Requested-With" removed  	[MsgId: MMSG-26587]
+Action.c(56): web_remove/revert_auto_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(58): web_url("{userId}") started  	[MsgId: MMSG-26355]
+Action.c(58): web_url("{userId}") was successful, 111 body bytes, 455 header bytes  	[MsgId: MMSG-26386]
+Action.c(67): Error: Failed to end Transaction "sign_in" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+..\\Parameters\\common.h(118): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg"  	[MsgId: MWAR-26627]
+..\\Parameters\\common.h(118): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/"  	[MsgId: MWAR-26627]
+..\\Parameters\\common.h(118): web_url("home-page.html") highest severity level was "warning", 55951 body bytes, 2201 header bytes  	[MsgId: MMSG-26388]
+..\\Parameters\\common.h(128): Notify: Transaction "Open_site" ended with a "Pass" status (Duration: 3,9415 Wasted Time: 0,0031).	[MsgId: MMSG-16871]
+Action.c(6): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(7): Error: Cannot start transaction "login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

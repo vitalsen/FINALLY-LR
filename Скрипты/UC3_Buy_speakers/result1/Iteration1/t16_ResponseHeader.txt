@@ -1,0 +1,16 @@
+HTTP/2.0 201
+Status: 201
+server: nginx/1.18.0 (Ubuntu)
+date: Fri, 02 Jun 2023 22:13:26 GMT
+content-type: application/json
+access-control-allow-credentials: true
+access-control-allow-origin: https://www.advantageonlineshopping.com
+vary: origin,accept-encoding
+expires: 0
+cache-control: no-store
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: DENY
+content-encoding: gzip
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+

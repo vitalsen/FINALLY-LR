@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\FINALLY\scripts\UC3_Buy_speakers
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\finally\scripts\uc3_buy_speakers\\logfile.log
+c:\finally\scripts\uc3_buy_speakers\\combined_buy.c
+c:\finally\scripts\uc3_buy_speakers\\pre_cci.c

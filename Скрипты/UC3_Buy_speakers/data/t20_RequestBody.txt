@@ -1,0 +1,4 @@
+"{\"seaddress\":{\"addressLine1\":\"\",\"addressLine2\":\"\",\"city\":\"\",\"country\":\"us\",\""
+"postalCode\":\"\",\"state\":\"\"},\"secustomerName\":\"VITLi4 \",\"secustomerPhone\":\"\",\"se"
+"numberOfProducts\":1,\"setransactionType\":\"SHIPPING_COST\",\"sessionId\":\"D77D6AF588A8A4AB0"
+"6FFCF68EA7BE691\"}"

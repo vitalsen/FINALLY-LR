@@ -1,0 +1,21 @@
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Mon, 22 May 2023 13:37:06 GMT
+Content-Type: text/xml;charset=utf-8
+Content-Length: 415
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-store
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Origin: *
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+SOAPAction: ""
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+

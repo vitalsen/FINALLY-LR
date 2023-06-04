@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Volvo21","addressLine2":"","city":"Moscow","country":"us","posta"
+"lCode":223322,"state":122122122,"secustomerName":VITLi,"secustomerPhone":722722722,"senumberOf"
+"Products":1,"setransactionType":"SHIPPING_COST","sessionId":"CC570073EE76D4154F3F373696BCD233""
+"}"

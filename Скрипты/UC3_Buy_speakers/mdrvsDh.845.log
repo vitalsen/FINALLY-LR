@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 19.	[MsgId: MMSG-10545]
+Action.c(328): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(331): web_remove_auto_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(331): Previous automatically added web header for "X-Requested-With" removed  	[MsgId: MMSG-26587]
+Action.c(331): web_remove/revert_auto_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(332): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(332): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(338): web_custom_request("{userId}_4") started  	[MsgId: MMSG-26355]
+Action.c(338): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://www.advantageonlineshopping.com/order/api/v1/orders/users/829545604"  	[MsgId: MERR-26612]
+Action.c(338): Error -26366: "Text=order completed successfully" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
